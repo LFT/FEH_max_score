@@ -14,7 +14,7 @@ class Unit {
 
     calculateScore (numberOfBlessing, withMerge, withSuperBoon) {
         // base score  + rarity value + level value
-        var score = 150 +  55 + 93;
+        let score = 150 +  55 + 93;
         // adding bst
         score += Math.floor((this.bst + (withSuperBoon && this.hasSuperBoon ? 1 : 0)) / 5)
         // adding sp
