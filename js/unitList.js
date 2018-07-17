@@ -1,5 +1,5 @@
 var units = {
-  "Abel": {
+  "Abel": new Unit({
     "name": "Abel",
     "moveType": "cavalry",
     "weaponType": "lance",
@@ -10,8 +10,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Alphonse": {
+  }),
+  "Alphonse": new Unit({
     "name": "Alphonse",
     "moveType": "infantry",
     "weaponType": "sword",
@@ -22,8 +22,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "HF!Alphonse": {
+  }),
+  "HF!Alphonse": new Unit({
     "name": "HF!Alphonse",
     "moveType": "infantry",
     "weaponType": "axe",
@@ -34,8 +34,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": true,
     "only5Star": true
-  },
-  "Alm": {
+  }),
+  "Alm": new Unit({
     "name": "Alm",
     "moveType": "infantry",
     "weaponType": "sword",
@@ -46,8 +46,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": true
-  },
-  "Amelia": {
+  }),
+  "Amelia": new Unit({
     "name": "Amelia",
     "moveType": "armor",
     "weaponType": "axe",
@@ -58,8 +58,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": true
-  },
-  "Anna": {
+  }),
+  "Anna": new Unit({
     "name": "Anna",
     "moveType": "infantry",
     "weaponType": "axe",
@@ -70,8 +70,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Arden": {
+  }),
+  "Arden": new Unit({
     "name": "Arden",
     "moveType": "armor",
     "weaponType": "sword",
@@ -82,8 +82,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Ares": {
+  }),
+  "Ares": new Unit({
     "name": "Ares",
     "moveType": "cavalry",
     "weaponType": "sword",
@@ -94,8 +94,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Arthur": {
+  }),
+  "Arthur": new Unit({
     "name": "Arthur",
     "moveType": "infantry",
     "weaponType": "axe",
@@ -106,8 +106,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Arvis": {
+  }),
+  "Arvis": new Unit({
     "name": "Arvis",
     "moveType": "infantry",
     "weaponType": "redTome",
@@ -118,8 +118,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Athena": {
+  }),
+  "Athena": new Unit({
     "name": "Athena",
     "moveType": "infantry",
     "weaponType": "sword",
@@ -130,8 +130,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Ayra": {
+  }),
+  "Ayra": new Unit({
     "name": "Ayra",
     "moveType": "infantry",
     "weaponType": "sword",
@@ -142,8 +142,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": true
-  },
-  "Azama": {
+  }),
+  "Azama": new Unit({
     "name": "Azama",
     "moveType": "infantry",
     "weaponType": "staff",
@@ -154,8 +154,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Azura": {
+  }),
+  "Azura": new Unit({
     "name": "Azura",
     "moveType": "infantry",
     "weaponType": "lance",
@@ -166,8 +166,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": true
-  },
-  "NY!Azura": {
+  }),
+  "NY!Azura": new Unit({
     "name": "NY!Azura",
     "moveType": "flier",
     "weaponType": "axe",
@@ -178,8 +178,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": true,
     "only5Star": true
-  },
-  "PA!Azura": {
+  }),
+  "PA!Azura": new Unit({
     "name": "PA!Azura",
     "moveType": "infantry",
     "weaponType": "axe",
@@ -190,8 +190,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": true,
     "only5Star": true
-  },
-  "Barst": {
+  }),
+  "Barst": new Unit({
     "name": "Barst",
     "moveType": "infantry",
     "weaponType": "axe",
@@ -202,8 +202,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Bartre": {
+  }),
+  "Bartre": new Unit({
     "name": "Bartre",
     "moveType": "infantry",
     "weaponType": "axe",
@@ -214,8 +214,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Berkut": {
+  }),
+  "Berkut": new Unit({
     "name": "Berkut",
     "moveType": "cavalry",
     "weaponType": "lance",
@@ -226,8 +226,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Beruka": {
+  }),
+  "Beruka": new Unit({
     "name": "Beruka",
     "moveType": "flier",
     "weaponType": "axe",
@@ -238,8 +238,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Black Knight": {
+  }),
+  "Black Knight": new Unit({
     "name": "Black Knight",
     "moveType": "armor",
     "weaponType": "sword",
@@ -250,8 +250,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Boey": {
+  }),
+  "Boey": new Unit({
     "name": "Boey",
     "moveType": "infantry",
     "weaponType": "greenTome",
@@ -262,8 +262,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Caeda": {
+  }),
+  "Caeda": new Unit({
     "name": "Caeda",
     "moveType": "flier",
     "weaponType": "sword",
@@ -274,8 +274,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "B!Caeda": {
+  }),
+  "B!Caeda": new Unit({
     "name": "B!Caeda",
     "moveType": "infantry",
     "weaponType": "blueTome",
@@ -286,8 +286,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": true,
     "only5Star": true
-  },
-  "Cain": {
+  }),
+  "Cain": new Unit({
     "name": "Cain",
     "moveType": "cavalry",
     "weaponType": "sword",
@@ -298,8 +298,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Camilla": {
+  }),
+  "Camilla": new Unit({
     "name": "Camilla",
     "moveType": "flier",
     "weaponType": "axe",
@@ -310,8 +310,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "NY!Camilla": {
+  }),
+  "NY!Camilla": new Unit({
     "name": "NY!Camilla",
     "moveType": "flier",
     "weaponType": "sword",
@@ -322,8 +322,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": true,
     "only5Star": true
-  },
-  "S!Camilla": {
+  }),
+  "S!Camilla": new Unit({
     "name": "S!Camilla",
     "moveType": "flier",
     "weaponType": "greenTome",
@@ -334,8 +334,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": true,
     "only5Star": true
-  },
-  "SS!Camilla": {
+  }),
+  "SS!Camilla": new Unit({
     "name": "SS!Camilla",
     "moveType": "flier",
     "weaponType": "blueTome",
@@ -346,8 +346,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": true,
     "only5Star": true
-  },
-  "Camus": {
+  }),
+  "Camus": new Unit({
     "name": "Camus",
     "moveType": "cavalry",
     "weaponType": "lance",
@@ -358,8 +358,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Canas": {
+  }),
+  "Canas": new Unit({
     "name": "Canas",
     "moveType": "infantry",
     "weaponType": "redTome",
@@ -370,8 +370,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Catria": {
+  }),
+  "Catria": new Unit({
     "name": "Catria",
     "moveType": "flier",
     "weaponType": "lance",
@@ -382,8 +382,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "S!Catria": {
+  }),
+  "S!Catria": new Unit({
     "name": "S!Catria",
     "moveType": "cavalry",
     "weaponType": "blueTome",
@@ -394,8 +394,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": true,
     "only5Star": true
-  },
-  "Cecilia": {
+  }),
+  "Cecilia": new Unit({
     "name": "Cecilia",
     "moveType": "cavalry",
     "weaponType": "greenTome",
@@ -406,8 +406,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  },
-  "Celica": {
+  }),
+  "Celica": new Unit({
     "name": "Celica",
     "moveType": "infantry",
     "weaponType": "redTome",
@@ -418,8 +418,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": true
-  },
-  "FH!Celica": {
+  }),
+  "FH!Celica": new Unit({
     "name": "FH!Celica",
     "moveType": "infantry",
     "weaponType": "sword",
@@ -430,8 +430,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": true
-  },
-  "B!Charlotte": {
+  }),
+  "B!Charlotte": new Unit({
     "name": "B!Charlotte",
     "moveType": "infantry",
     "weaponType": "lance",
@@ -442,8 +442,8 @@ var units = {
     "isLegendary": false,
     "seasonnal": true,
     "only5Star": true
-  },
-  "Cherche": {
+  }),
+  "Cherche": new Unit({
     "name": "Cherche",
     "moveType": "flier",
     "weaponType": "axe",
@@ -454,5 +454,5 @@ var units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
-  }
+  })
 }

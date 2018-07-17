@@ -31,3 +31,6 @@ class Unit {
         return score * 2;
     }
 }
+
+
+// to replace generated unit list: (\{[^}]+\}) -> new Unit\(\1\)
