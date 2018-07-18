@@ -1,7 +1,7 @@
 #unitDisplay {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 50px auto;
+    grid-template-rows: auto;
     grid-gap: 10px 10px;
     grid-auto-columns : auto;
     grid-auto-rows : auto;
