@@ -1,4 +1,4 @@
-#unitDisplay {
+#unit-display {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -11,10 +11,10 @@
     display : inline-block;
 }
 
-#columnCheckboxes {
+.checkbox-row  {
     display : flex;
 }
-#columnCheckboxes label{
+.checkbox-row label, .checkbox-row button{
     flex: 1 0 auto;
     text-align: center;
 }

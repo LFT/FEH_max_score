@@ -7,16 +7,18 @@
         <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
-        <div id="unitFilters">
+        <div id="unit-filters">
         </div>
-        <div id="columnFilter">
-            <div id="columnButtons"></div>
-            <div id="columnCheckboxes"></div>
+        <div id="column-filters">
+            <div class="checkbox-row" id="column-groups">
+                <button name="clean">Clean</button>
+            </div>
+            <div class="checkbox-row" id="column-checkboxes"></div>
         </div>
-        <div id="unitDisplay">
+        <div id="unit-display">
 
         </div>
-        <template id="columnTemplate">
+        <template id="checkbox-template">
             <label class="ib"><span></span><br/><input type="checkbox" checked/></label>
         </template>
     </body>
