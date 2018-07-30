@@ -9,8 +9,8 @@ const weaponTypes = [new WeaponType("sword", "red", "melee", "physical"),
     new WeaponType("greenBreath", "green", "melee", "magical"),
     new WeaponType("greenBow", "green", "ranged", "physical"),
     new WeaponType("greenTome", "green", "ranged", "magical"),
-    new WeaponType("colorlessBreath", "colorless", "melee", "magical"),
-    new WeaponType("colorlessBow", "colorless", "ranged", "physical"),
+    new WeaponType("breath", "colorless", "melee", "magical"),
+    new WeaponType("bow", "colorless", "ranged", "physical"),
     new WeaponType("dagger", "colorless", "ranged", "physical"),
     new WeaponType("staff", "colorless", "ranged", "magical")
 ];
