@@ -3,6 +3,8 @@
     <head>
         <script src="js/unit.js" type="text/javascript"></script>
         <script src="js/unitList.js" type="text/javascript"></script>
+        <script src="js/weaponType.js" type="text/javascript"></script>
+        <script src="js/weaponTypeList.js" type="text/javascript"></script>
         <script src="js/app.js" type="text/javascript"></script>
         <link rel="stylesheet" href="css/app.css">
     </head>
@@ -11,7 +13,6 @@
         </div>
         <div id="column-filters">
             <div class="checkbox-row" id="column-groups">
-                <button name="clean">Clean</button>
             </div>
             <div class="checkbox-row" id="column-checkboxes"></div>
         </div>
@@ -19,7 +20,7 @@
 
         </div>
         <template id="checkbox-template">
-            <label class="ib"><span></span><br/><input type="checkbox" checked/></label>
+            <label class="ib"><span></span><br/><input class="column-checkbox" type="checkbox" checked/></label>
         </template>
     </body>
 </html>

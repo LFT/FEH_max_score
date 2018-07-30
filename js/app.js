@@ -2,45 +2,8 @@ const scores = {
     "scoreList" : [],
     "unitScoreList" : {}
 };
-const weaponTypes = ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"];
-const weaponGroups = [{
-    "name" : "All",
-    "weapons" : ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueTome", "axe", "greenBow", "greenBreath", "greenTome", "breath", "bow", "dagger", "staff"]
-},
-{
-    "name" : "Melee",
-    "weapons" : ["sword", "redBreath","lance", "blueBreath", "axe", "greenBreath", "breath"]
-},
-{
-    "name" : "Range",
-    "weapons" : ["redTome", "blueTome", "greenBow", "greenTome", "bow", "dagger", "staff"]
-},
-{
-    "name" : "Physical",
-    "weapons" : ["sword", "lance", "axe", "greenBow", "bow", "dagger"]
-},
-{
-    "name" : "Magical",
-    "weapons" : ["redBreath", "redTome", "blueBreath", "blueTome", "greenBreath", "greenTome", "bow", "dagger"]
-},
-{
-    "name" : "Red",
-    "weapons" : ["sword", "redBreath", "redTome"]
-},
-{
-    "name" : "Blue",
-    "weapons" : ["lance", "blueBreath", "blueTome"]
-},
-{
-    "name" : "Green",
-    "weapons" : ["axe", "greenBreath", "greenBow", "greenTome"]
-},
-{
-    "name" : "Colorless",
-    "weapons" : ["breath", "bow", "dagger", "staff"]
-}
-]
-const columnList = ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"];
+const weaponGroups = ["Clean", "All", "Melee", "Ranged", "Physical", "Magical", "Red", "Blue", "Green", "Colorless"];
+const columnList = ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"];
 
 function generateScoreList(numberOfBlessing, withMerge, withSuperBoon) {
     scoreList = {};
@@ -106,53 +69,42 @@ function generateButton(name) {
     generatedButton.name = name;
     return generatedButton;
 }
-function addWeaponToList(weaponType) {
-    let i = 0;
-    letMaxIndex = weaponTypes.indexOf(weaponType);
-    for (i; i < columnList.length; i++) {
-        let weaponIndex = weaponTypes.indexOf(columnList[i]);
-        if (weaponIndex > letMaxIndex) {
-            break;
+
+// We go for reset and reading each time.
+// Probably not the best performance wise, but the code is much simpler.
+function updateWeaponList() {
+    columnList.splice(0);
+    let checkBoxes = document.getElementsByClassName("column-checkbox");
+    for (let i = 0; i < checkBoxes.length; i++) {
+        if (checkBoxes[i].checked) {
+            columnList.push(checkBoxes[i].name);
         }
     }
-    columnList.splice(i, 0, weaponType);
 }
 
 function handleCheck(evt) {
-    let weaponType = evt.target.name;
-    let currentIndex = columnList.indexOf(weaponType);
-    if (evt.target.checked && currentIndex === -1) {
-        addWeaponToList(weaponType);
-    }
-    if (!evt.target.checked && currentIndex !== -1) {
-        columnList.splice(currentIndex, 1);
-    }
+    updateWeaponList();
     drawMatrix();
 }
-
+// MoveType
 function handleGroup(evt) {
     let group = evt.target.name;
-    if (group === "clean") {
-        for (let i = 0; i < weaponTypes.length; i++) {
-            let weaponCheckbox = document.getElementsByName(weaponTypes[i])[0];
-            weaponCheckbox.checked = false;
+    if (group === "Clean" || group === "All") {
+        let checkBoxes = document.getElementsByClassName("column-checkbox");
+        for (let i = 0; i < checkBoxes.length; i++) {
+            checkBoxes[i].checked = group === "All";
         }
-        columnList.splice(0);
     } else {
-        let matchingWeapons;
-        for (let i = 0; i < weaponGroups.length; i++) {
-            if (weaponGroups[i].name === group) {
-                matchingWeapons = weaponGroups[i].weapons
-            }
-        }
-        for (let i = 0; i < matchingWeapons.length; i++) {
-            let weaponCheckbox = document.getElementsByName(matchingWeapons[i])[0];
-            if (!weaponCheckbox.checked) {
-                weaponCheckbox.checked = true;
-                addWeaponToList(matchingWeapons[i]);
+        for (let i = 0; i < weaponTypes.length; i++) {
+            if (weaponTypes[i].matchProperty(group)) {
+                let weaponCheckbox = document.getElementsByName(weaponTypes[i].name)[0];
+                if (!weaponCheckbox.checked) {
+                    weaponCheckbox.checked = true;
+                }
             }
         }
     }
+    updateWeaponList();
     drawMatrix();
 }
 function init() {
@@ -162,10 +114,10 @@ function init() {
     let groups = document.getElementById("column-groups");
     let container = document.getElementById("column-checkboxes");
     for (let i = 0; i < weaponTypes.length; i++) {
-        container.appendChild(generateCheckboxes(template, weaponTypes[i]));
+        container.appendChild(generateCheckboxes(template, weaponTypes[i].name));
     }
     for (let i = 0; i < weaponGroups.length; i++) {
-        groups.appendChild(generateButton(weaponGroups[i].name));
+        groups.appendChild(generateButton(weaponGroups[i]));
     }
     container.addEventListener("change", handleCheck);
     groups.addEventListener("click", handleGroup);

@@ -1,0 +1,16 @@
+const weaponTypes = [new WeaponType("sword", "red", "melee", "physical"),
+    new WeaponType("redBreath", "red", "melee", "magical"),
+    new WeaponType("redTome", "red", "ranged", "magical"),
+    new WeaponType("lance", "blue", "melee", "physical"),
+    new WeaponType("blueBreath", "blue", "melee", "magical"),
+    new WeaponType("blueBow", "blue", "ranged", "physical"),
+    new WeaponType("blueTome", "blue", "ranged", "magical"),
+    new WeaponType("axe", "green", "melee", "physical"),
+    new WeaponType("greenBreath", "green", "melee", "magical"),
+    new WeaponType("greenBow", "green", "ranged", "physical"),
+    new WeaponType("greenTome", "green", "ranged", "magical"),
+    new WeaponType("colorlessBreath", "colorless", "melee", "magical"),
+    new WeaponType("colorlessBow", "colorless", "ranged", "physical"),
+    new WeaponType("dagger", "colorless", "ranged", "physical"),
+    new WeaponType("staff", "colorless", "ranged", "magical")
+];

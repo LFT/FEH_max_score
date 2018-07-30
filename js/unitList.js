@@ -1,4 +1,4 @@
-var units = {
+const units = {
   "Abel": new Unit({
     "name": "Abel",
     "moveType": "cavalry",
