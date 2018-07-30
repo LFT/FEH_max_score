@@ -1,10 +1,12 @@
 #unit-display {
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 10px 10px;
     grid-auto-columns : 1fr;
     grid-auto-rows : auto;
+    justify-items: center;
 }
 
 .ib {
@@ -17,4 +19,30 @@
 .checkbox-row label, .checkbox-row button{
     flex: 1 0 auto;
     text-align: center;
+}
+#column-filters {
+    display : grid;
+    grid-template-columns : 100px auto;
+    grid-template-rows: auto auto;
+    grid-gap: 1px 1px;
+}
+#column-filters img {
+    height: 20px;
+    vertical-align: text-top;
+}
+#column-filters input {
+    vertical-align: middle;
+}
+#column-filters .column-title {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    align-self: center;
+}
+#column-filters .checkbox-row:nth-of-type(2n) {
+    grid-area: 2 / 3
+    grid-row: 1 / 2;
+}
+#column-filters .checkbox-row:nth-of-type(2n+1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }

@@ -22,9 +22,13 @@ function generateScoreList(numberOfBlessing, withMerge, withSuperBoon) {
     scores.scoreList.sort().reverse();
 }
 
-function add1x1Cell(grid, content, x, y) {
+function add1x1Cell(grid, content, x, y, isTextContent) {
     let cell = document.createElement("div");
-    cell.textContent =  content;
+    if (isTextContent) {
+        cell.textContent =  content;
+    } else {
+        cell.appendChild(content);
+    }
     cell.style.gridColumn = x + " / span 1";
     cell.style.gridRow = y + " / span 1";
     grid.appendChild(cell);
@@ -36,7 +40,10 @@ function drawMatrix() {
         grid.removeChild(grid.firstChild);
     }
     for (let i = 0; i < columnList.length; i++) {
-        add1x1Cell(grid, columnList[i], 2 + i, 1);
+        let img = document.createElement("img");
+        img.src = "pictures/" + columnList[i] + ".png";
+        img.alt = columnList[i];
+        add1x1Cell(grid, img, 2 + i, 1, false);
     }
     for (let i = 0; i < scores.scoreList.length; i++) {
         let score = scores.scoreList[i];
@@ -45,19 +52,20 @@ function drawMatrix() {
             let weaponType = columnList[j];
             if (scores.unitScoreList[score][weaponType]) {
                 unitWithScore = true;
-                add1x1Cell(grid, scores.unitScoreList[score][weaponType].join(", "), j + 2, i + 2);
+                add1x1Cell(grid, scores.unitScoreList[score][weaponType].join(", "), j + 2, i + 2, true);
             }
         }
         if (unitWithScore) {
-            add1x1Cell(grid, score, 1, 2 + i);
+            add1x1Cell(grid, score, 1, 2 + i, true);
         }
     }
 }
 
 function generateCheckboxes(columnTemplate, name) {
     let clone = document.importNode(columnTemplate.content, true);
-    let cloneText = clone.querySelector("span");
-    cloneText.textContent = name;
+    let cloneImg = clone.querySelector("img");
+    cloneImg.src = "pictures/" + name + ".png";
+    cloneImg.alt = name;
     let cloneInput = clone.querySelector("input");
     cloneInput.name = name;
     return clone;
