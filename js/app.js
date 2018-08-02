@@ -140,6 +140,18 @@ function handleUnit(evt) {
     switch (evt.target.name) {
         case "5star":
         case "season" :
+            scores[evt.target.name] = evt.target.checked;
+        break;
+        default:
+            updateUnitFilters();
+        break;
+    }
+    generateScoreList();
+    drawMatrix();
+}
+
+function handleScore(evt) {
+     switch (evt.target.name) {
         case "merge" :
         case "boon" :
             scores[evt.target.name] = evt.target.checked;
@@ -151,6 +163,7 @@ function handleUnit(evt) {
     generateScoreList();
     drawMatrix();
 }
+
 function init() {
     generateScoreList(0);
     drawMatrix();
@@ -159,6 +172,7 @@ function init() {
     let container = document.getElementById("column-checkboxes");
     let moveTemplate = document.getElementById("checkbox-deplacement-template");
     let moveContainer = document.getElementById("unit-checkboxes");
+    let scoreContainer = document.getElementById("socre-inputs");
     for (let i = 0; i < weaponTypes.length; i++) {
         container.appendChild(generateCheckboxes(template, weaponTypes[i].name));
     }
@@ -171,5 +185,6 @@ function init() {
     container.addEventListener("change", handleCheck);
     groups.addEventListener("click", handleGroup);
     moveContainer.addEventListener("click", handleUnit);
+    scoreContainer.addEventListener("click", handleScore);
 }
 document.addEventListener("DOMContentLoaded", init);

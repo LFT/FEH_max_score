@@ -10,15 +10,20 @@
         <meta charset="utf-8" />
     </head>
     <body>
+        <div id="score-filters">
+            <div class="column-title">Score computation</div>
+            <div class="checkbox-row" id="socre-inputs">
+                <label class="ib">Max merge units
+                    <input autocomplete="off" class="score-checkbox" type="checkbox" name="merge" checked />
+                </label>
+                <label class="ib">Super boon if possible
+                    <input autocomplete="off" class="score-checkbox" type="checkbox" name="boon" checked />
+                </label>
+            </div>
+        </div>
         <div id="unit-filters">
             <div class="column-title">Unit filtering</div>
             <div class="checkbox-row" id="unit-checkboxes">
-                <label class="ib">Max merge units
-                    <input autocomplete="off" class="filter-checkbox" type="checkbox" name="merge" checked />
-                </label>
-                <label class="ib">Super boon if possible
-                    <input autocomplete="off" class="filter-checkbox" type="checkbox" name="boon" checked />
-                </label>
                 <label class="ib">Seasonnals units
                     <input autocomplete="off" class="filter-checkbox" type="checkbox" name="season" checked />
                 </label>

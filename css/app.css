@@ -45,18 +45,18 @@
 .checkbox-row input {
     vertical-align: middle;
 }
-#unit-filters {
+#unit-filters, #score-filters {
     display :flex
 }
-#unit-filters > div:first-child{
-    flex: 0 0 100px;
+#unit-filters > div:first-child, #score-filters > div:first-child{
+    flex: 0 0 150px;
 }
-#unit-filters > div{
+#unit-filters > div, #score-filters > div{
     flex: 1 0 auto;
 }
 #column-filters {
     display : grid;
-    grid-template-columns : 100px auto;
+    grid-template-columns : 150px auto;
     grid-template-rows: auto auto;
     grid-gap: 1px 1px;
 }
