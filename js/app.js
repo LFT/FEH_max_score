@@ -2,7 +2,7 @@ const scores = {
     "scoreList" : [],
     "unitScoreList" : {}
 };
-const weaponGroups = ["Clean", "All", "Melee", "Ranged", "Physical", "Magical", "Red", "Blue", "Green", "Colorless"];
+const weaponGroups = ["Clear all", "All", "Melee", "Ranged", "Physical", "Magical", "Red", "Blue", "Green", "Colorless"];
 const columnList = ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"];
 
 function generateScoreList(numberOfBlessing, withMerge, withSuperBoon) {
@@ -22,15 +22,19 @@ function generateScoreList(numberOfBlessing, withMerge, withSuperBoon) {
     scores.scoreList.sort().reverse();
 }
 
-function add1x1Cell(grid, content, x, y, isTextContent) {
+function add1x1Cell(grid, x, y, content, isTextContent, className) {
     let cell = document.createElement("div");
     if (isTextContent) {
         cell.textContent =  content;
     } else {
-        cell.appendChild(content);
+        let img = document.createElement("img");
+        img.src = "pictures/" + content + ".png";
+        img.alt = content;
+        cell.appendChild(img);
     }
     cell.style.gridColumn = x + " / span 1";
     cell.style.gridRow = y + " / span 1";
+    cell.className = className;
     grid.appendChild(cell);
 }
 
@@ -40,10 +44,7 @@ function drawMatrix() {
         grid.removeChild(grid.firstChild);
     }
     for (let i = 0; i < columnList.length; i++) {
-        let img = document.createElement("img");
-        img.src = "pictures/" + columnList[i] + ".png";
-        img.alt = columnList[i];
-        add1x1Cell(grid, img, 2 + i, 1, false);
+        add1x1Cell(grid,2 + i, 1, columnList[i], false, "grid-weapons");
     }
     for (let i = 0; i < scores.scoreList.length; i++) {
         let score = scores.scoreList[i];
@@ -52,11 +53,11 @@ function drawMatrix() {
             let weaponType = columnList[j];
             if (scores.unitScoreList[score][weaponType]) {
                 unitWithScore = true;
-                add1x1Cell(grid, scores.unitScoreList[score][weaponType].join(", "), j + 2, i + 2, true);
+                add1x1Cell(grid, j + 2, i + 2, scores.unitScoreList[score][weaponType].join(", "), true, "grid-units");
             }
         }
         if (unitWithScore) {
-            add1x1Cell(grid, score, 1, 2 + i, true);
+            add1x1Cell(grid, 1, 2 + i, score, true, "grid-scores");
         }
     }
 }
@@ -97,7 +98,7 @@ function handleCheck(evt) {
 // MoveType
 function handleGroup(evt) {
     let group = evt.target.name;
-    if (group === "Clean" || group === "All") {
+    if (group === "Clear all" || group === "All") {
         let checkBoxes = document.getElementsByClassName("column-checkbox");
         for (let i = 0; i < checkBoxes.length; i++) {
             checkBoxes[i].checked = group === "All";
