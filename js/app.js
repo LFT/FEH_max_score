@@ -3,8 +3,8 @@ const scores = {
     "merge" : true,
     "boon" : true,
     "season" : true,
-    "5star" : true,
-    "includedMoveTypes" : ["Infantry", "Flier", "Cavalry", "Armor"],
+    "star5" : true,
+    "includedMoveTypes" : ["infantry", "flier", "cavalry", "armor"],
     "columnList" : ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"],
     "scoreList" : [],
     "unitScoreList" : {}
@@ -15,18 +15,21 @@ const moveTypes = ["Infantry", "Flier", "Cavalry", "Armor"];
 
 function generateScoreList() {
     scores.scoreList = [];
-    console.log(scores);
     for (let unit in units) {
         let realUnit = units[unit];
-        let score = realUnit.calculateScore(scores.numberOfBlessing, scores.merge, scores.boon);
-        if (scores.scoreList.indexOf(score) === -1) {
-            scores.scoreList.push(score);
-            scores.unitScoreList[score] = {};
+        if ((scores.star5 || !realUnit.only5Star) &&
+            (scores.season || !realUnit.seasonnal) &&
+            scores.includedMoveTypes.indexOf(realUnit.moveType) > -1) {
+            let score = realUnit.calculateScore(scores.numberOfBlessing, scores.merge, scores.boon);
+            if (scores.scoreList.indexOf(score) === -1) {
+                scores.scoreList.push(score);
+                scores.unitScoreList[score] = {};
+            }
+            if (!scores.unitScoreList[score][realUnit.weaponType]) {
+                scores.unitScoreList[score][realUnit.weaponType] = [];
+            }
+            scores.unitScoreList[score][realUnit.weaponType].push(unit);
         }
-        if (!scores.unitScoreList[score][realUnit.weaponType]) {
-            scores.unitScoreList[score][realUnit.weaponType] = [];
-        }
-        scores.unitScoreList[score][realUnit.weaponType].push(unit);
     }
     scores.scoreList.sort().reverse();
 }
@@ -105,12 +108,12 @@ function handleCheck(evt) {
     drawMatrix();
 }
 
-function updateUnitFilters () {
+function updateMoveFilters () {
     scores.includedMoveTypes.splice(0);
     let checkBoxes = document.getElementsByClassName("deplacement-checkbox");
     for (let i = 0; i < checkBoxes.length; i++) {
         if (checkBoxes[i].checked) {
-            scores.includedMoveTypes.push(checkBoxes[i].name);
+            scores.includedMoveTypes.push(checkBoxes[i].name.toLowerCase());
         }
     }
 }
@@ -138,12 +141,12 @@ function handleGroup(evt) {
 
 function handleUnit(evt) {
     switch (evt.target.name) {
-        case "5star":
+        case "star5":
         case "season" :
             scores[evt.target.name] = evt.target.checked;
         break;
         default:
-            updateUnitFilters();
+            updateMoveFilters();
         break;
     }
     generateScoreList();
@@ -157,7 +160,7 @@ function handleScore(evt) {
             scores[evt.target.name] = evt.target.checked;
         break;
         default:
-            updateUnitFilters();
+            updateMoveFilters();
         break;
     }
     generateScoreList();
