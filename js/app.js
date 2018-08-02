@@ -139,28 +139,18 @@ function handleGroup(evt) {
     drawMatrix();
 }
 
-function handleUnit(evt) {
+function handleUnits(evt) {
     switch (evt.target.name) {
         case "star5":
         case "season" :
+        case "boon" :
+        case "merge" :
             scores[evt.target.name] = evt.target.checked;
         break;
+        case "blessings" :
+            scores.numberOfBlessing = Number.parseInt(evt.target.value, 10);
         default:
             updateMoveFilters();
-        break;
-    }
-    generateScoreList();
-    drawMatrix();
-}
-
-function handleScore(evt) {
-     switch (evt.target.name) {
-        case "merge" :
-        case "boon" :
-            scores[evt.target.name] = evt.target.checked;
-        break;
-        default:
-            scores.numberOfBlessing = Number.parseInt(evt.target.value, 10);
         break;
     }
     generateScoreList();
@@ -187,7 +177,7 @@ function init() {
     }
     container.addEventListener("change", handleCheck);
     groups.addEventListener("click", handleGroup);
-    moveContainer.addEventListener("click", handleUnit);
-    scoreContainer.addEventListener("change", handleScore);
+    moveContainer.addEventListener("click", handleUnits);
+    scoreContainer.addEventListener("change", handleUnits);
 }
 document.addEventListener("DOMContentLoaded", init);
