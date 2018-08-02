@@ -7,10 +7,25 @@
         <script src="js/weaponTypeList.js" type="text/javascript"></script>
         <script src="js/app.js" type="text/javascript"></script>
         <link rel="stylesheet" href="css/app.css">
+        <meta charset="utf-8" />
     </head>
     <body>
         <div id="unit-filters">
             <div class="column-title">Unit filtering</div>
+            <div class="checkbox-row" id="unit-checkboxes">
+                <label class="ib">Max merge units
+                    <input autocomplete="off" class="filter-checkbox" type="checkbox" name="merge" checked />
+                </label>
+                <label class="ib">Super boon if possible
+                    <input autocomplete="off" class="filter-checkbox" type="checkbox" name="boon" checked />
+                </label>
+                <label class="ib">Seasonnals units
+                    <input autocomplete="off" class="filter-checkbox" type="checkbox" name="season" checked />
+                </label>
+                <label class="ib">5 <img src="pictures/5star.png"> locked units
+                    <input autocomplete="off" class="filter-checkbox" name="5star" type="checkbox" checked />
+                </label>
+            </div>
         </div>
         <div id="column-filters">
             <div class="column-title">Column filtering</div>
@@ -22,7 +37,10 @@
 
         </div>
         <template id="checkbox-template">
-            <label class="ib"><img><input class="column-checkbox" type="checkbox" checked/></label>
+            <label class="ib"><img><input autocomplete="off" class="column-checkbox" type="checkbox" checked/></label>
+        </template>
+        <template id="checkbox-deplacement-template">
+            <label class="ib"><img><input autocomplete="off" class="deplacement-checkbox" type="checkbox" checked/></label>
         </template>
     </body>
 </html>

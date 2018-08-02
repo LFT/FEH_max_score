@@ -32,10 +32,27 @@
 /* Selectors stuff */
 .checkbox-row  {
     display : flex;
+    margin-bottom: 10px;
 }
 .checkbox-row label, .checkbox-row button{
     flex: 1 0 auto;
     text-align: center;
+}
+.checkbox-row img {
+    height: 20px;
+    vertical-align: text-top;
+}
+.checkbox-row input {
+    vertical-align: middle;
+}
+#unit-filters {
+    display :flex
+}
+#unit-filters > div:first-child{
+    flex: 0 0 100px;
+}
+#unit-filters > div{
+    flex: 1 0 auto;
 }
 #column-filters {
     display : grid;
@@ -43,13 +60,7 @@
     grid-template-rows: auto auto;
     grid-gap: 1px 1px;
 }
-#column-filters img {
-    height: 20px;
-    vertical-align: text-top;
-}
-#column-filters input {
-    vertical-align: middle;
-}
+
 #column-filters .column-title {
     grid-column: 1 / 2;
     grid-row: 1 / 3;

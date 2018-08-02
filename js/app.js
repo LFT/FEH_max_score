@@ -1,15 +1,24 @@
 const scores = {
+    "numberOfBlessing" : 0,
+    "merge" : true,
+    "boon" : true,
+    "season" : true,
+    "5star" : true,
+    "includedMoveTypes" : ["Infantry", "Flier", "Cavalry", "Armor"],
+    "columnList" : ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"],
     "scoreList" : [],
     "unitScoreList" : {}
 };
 const weaponGroups = ["Clear all", "All", "Melee", "Ranged", "Physical", "Magical", "Red", "Blue", "Green", "Colorless"];
 const columnList = ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"];
+const moveTypes = ["Infantry", "Flier", "Cavalry", "Armor"];
 
-function generateScoreList(numberOfBlessing, withMerge, withSuperBoon) {
-    scoreList = {};
+function generateScoreList() {
+    scores.scoreList = [];
+    console.log(scores);
     for (let unit in units) {
         let realUnit = units[unit];
-        let score = realUnit.calculateScore(numberOfBlessing, withMerge, withSuperBoon);
+        let score = realUnit.calculateScore(scores.numberOfBlessing, scores.merge, scores.boon);
         if (scores.scoreList.indexOf(score) === -1) {
             scores.scoreList.push(score);
             scores.unitScoreList[score] = {};
@@ -43,14 +52,14 @@ function drawMatrix() {
     while (grid.firstChild) {
         grid.removeChild(grid.firstChild);
     }
-    for (let i = 0; i < columnList.length; i++) {
-        add1x1Cell(grid,2 + i, 1, columnList[i], false, "grid-weapons");
+    for (let i = 0; i < scores.columnList.length; i++) {
+        add1x1Cell(grid,2 + i, 1, scores.columnList[i], false, "grid-weapons");
     }
     for (let i = 0; i < scores.scoreList.length; i++) {
         let score = scores.scoreList[i];
         let unitWithScore = false;
-        for (let j = 0; j < columnList.length; j++) {
-            let weaponType = columnList[j];
+        for (let j = 0; j < scores.columnList.length; j++) {
+            let weaponType = scores.columnList[j];
             if (scores.unitScoreList[score][weaponType]) {
                 unitWithScore = true;
                 add1x1Cell(grid, j + 2, i + 2, scores.unitScoreList[score][weaponType].join(", "), true, "grid-units");
@@ -82,11 +91,11 @@ function generateButton(name) {
 // We go for reset and reading each time.
 // Probably not the best performance wise, but the code is much simpler.
 function updateWeaponList() {
-    columnList.splice(0);
+    scores.columnList.splice(0);
     let checkBoxes = document.getElementsByClassName("column-checkbox");
     for (let i = 0; i < checkBoxes.length; i++) {
         if (checkBoxes[i].checked) {
-            columnList.push(checkBoxes[i].name);
+            scores.columnList.push(checkBoxes[i].name);
         }
     }
 }
@@ -95,7 +104,17 @@ function handleCheck(evt) {
     updateWeaponList();
     drawMatrix();
 }
-// MoveType
+
+function updateUnitFilters () {
+    scores.includedMoveTypes.splice(0);
+    let checkBoxes = document.getElementsByClassName("deplacement-checkbox");
+    for (let i = 0; i < checkBoxes.length; i++) {
+        if (checkBoxes[i].checked) {
+            scores.includedMoveTypes.push(checkBoxes[i].name);
+        }
+    }
+}
+
 function handleGroup(evt) {
     let group = evt.target.name;
     if (group === "Clear all" || group === "All") {
@@ -116,19 +135,41 @@ function handleGroup(evt) {
     updateWeaponList();
     drawMatrix();
 }
+
+function handleUnit(evt) {
+    switch (evt.target.name) {
+        case "5star":
+        case "season" :
+        case "merge" :
+        case "boon" :
+            scores[evt.target.name] = evt.target.checked;
+        break;
+        default:
+            updateUnitFilters();
+        break;
+    }
+    generateScoreList();
+    drawMatrix();
+}
 function init() {
-    generateScoreList(0, true, true);
+    generateScoreList(0);
     drawMatrix();
     let template = document.getElementById("checkbox-template");
     let groups = document.getElementById("column-groups");
     let container = document.getElementById("column-checkboxes");
+    let moveTemplate = document.getElementById("checkbox-deplacement-template");
+    let moveContainer = document.getElementById("unit-checkboxes");
     for (let i = 0; i < weaponTypes.length; i++) {
         container.appendChild(generateCheckboxes(template, weaponTypes[i].name));
     }
     for (let i = 0; i < weaponGroups.length; i++) {
         groups.appendChild(generateButton(weaponGroups[i]));
     }
+    for (let i = 0; i < moveTypes.length; i++) {
+        moveContainer.appendChild(generateCheckboxes(moveTemplate, moveTypes[i]));
+    }
     container.addEventListener("change", handleCheck);
     groups.addEventListener("click", handleGroup);
+    moveContainer.addEventListener("click", handleUnit);
 }
 document.addEventListener("DOMContentLoaded", init);
