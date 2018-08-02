@@ -12,12 +12,15 @@
     <body>
         <div id="score-filters">
             <div class="column-title">Score computation</div>
-            <div class="checkbox-row" id="socre-inputs">
+            <div class="checkbox-row" id="score-inputs">
                 <label class="ib">Max merge units
-                    <input autocomplete="off" class="score-checkbox" type="checkbox" name="merge" checked />
+                    <input autocomplete="off" class="score-input" type="checkbox" name="merge" checked />
                 </label>
                 <label class="ib">Super boon if possible
-                    <input autocomplete="off" class="score-checkbox" type="checkbox" name="boon" checked />
+                    <input autocomplete="off" class="score-input" type="checkbox" name="boon" checked />
+                </label>
+                <label class="ib">Matching legendary heroes in team
+                    <input autocomplete="off" class="score-input" type="number" name="blessings" min="0" max="3" value="0" />
                 </label>
             </div>
         </div>

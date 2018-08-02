@@ -160,7 +160,7 @@ function handleScore(evt) {
             scores[evt.target.name] = evt.target.checked;
         break;
         default:
-            updateMoveFilters();
+            scores.numberOfBlessing = Number.parseInt(evt.target.value, 10);
         break;
     }
     generateScoreList();
@@ -175,7 +175,7 @@ function init() {
     let container = document.getElementById("column-checkboxes");
     let moveTemplate = document.getElementById("checkbox-deplacement-template");
     let moveContainer = document.getElementById("unit-checkboxes");
-    let scoreContainer = document.getElementById("socre-inputs");
+    let scoreContainer = document.getElementById("score-inputs");
     for (let i = 0; i < weaponTypes.length; i++) {
         container.appendChild(generateCheckboxes(template, weaponTypes[i].name));
     }
@@ -188,6 +188,6 @@ function init() {
     container.addEventListener("change", handleCheck);
     groups.addEventListener("click", handleGroup);
     moveContainer.addEventListener("click", handleUnit);
-    scoreContainer.addEventListener("click", handleScore);
+    scoreContainer.addEventListener("change", handleScore);
 }
 document.addEventListener("DOMContentLoaded", init);
