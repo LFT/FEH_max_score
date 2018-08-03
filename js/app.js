@@ -11,7 +11,7 @@ const scores = {
 };
 const weaponGroups = ["Clear all", "All", "Melee", "Ranged", "Physical", "Magical", "Red", "Blue", "Green", "Colorless"];
 const columnList = ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"];
-const moveTypes = ["Infantry", "Flier", "Cavalry", "Armor"];
+const moveTypes = ["infantry", "flier", "cavalry", "armor"];
 
 function generateScoreList() {
     scores.scoreList = [];
@@ -116,7 +116,7 @@ function updateMoveFilters () {
     let checkBoxes = document.getElementsByClassName("deplacement-checkbox");
     for (let i = 0; i < checkBoxes.length; i++) {
         if (checkBoxes[i].checked) {
-            scores.includedMoveTypes.push(checkBoxes[i].name.toLowerCase());
+            scores.includedMoveTypes.push(checkBoxes[i].name);
         }
     }
 }
