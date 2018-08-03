@@ -28,7 +28,7 @@ function generateScoreList() {
             if (!scores.unitScoreList[score][realUnit.weaponType]) {
                 scores.unitScoreList[score][realUnit.weaponType] = [];
             }
-            scores.unitScoreList[score][realUnit.weaponType].push(unit);
+            scores.unitScoreList[score][realUnit.weaponType].push("heroes/" + unit);
         }
     }
     scores.scoreList.sort().reverse();
@@ -36,13 +36,16 @@ function generateScoreList() {
 
 function add1x1Cell(grid, x, y, content, isTextContent, className) {
     let cell = document.createElement("div");
+    console.log(content);
     if (isTextContent) {
         cell.textContent =  content;
     } else {
-        let img = document.createElement("img");
-        img.src = "pictures/" + content + ".png";
-        img.alt = content;
-        cell.appendChild(img);
+        for (let i = 0; i < content.length; i++) {
+            let img = document.createElement("img");
+            img.src = "pictures/" + content[i] + ".png";
+            img.alt = content[i];
+            cell.appendChild(img);
+        }
     }
     cell.style.gridColumn = x + " / span 1";
     cell.style.gridRow = y + " / span 1";
@@ -56,7 +59,7 @@ function drawMatrix() {
         grid.removeChild(grid.firstChild);
     }
     for (let i = 0; i < scores.columnList.length; i++) {
-        add1x1Cell(grid,2 + i, 1, scores.columnList[i], false, "grid-weapons");
+        add1x1Cell(grid,2 + i, 1, [scores.columnList[i]], false, "grid-weapons");
     }
     for (let i = 0; i < scores.scoreList.length; i++) {
         let score = scores.scoreList[i];
@@ -65,7 +68,7 @@ function drawMatrix() {
             let weaponType = scores.columnList[j];
             if (scores.unitScoreList[score][weaponType]) {
                 unitWithScore = true;
-                add1x1Cell(grid, j + 2, i + 2, scores.unitScoreList[score][weaponType].join(", "), true, "grid-units");
+                add1x1Cell(grid, j + 2, i + 2, scores.unitScoreList[score][weaponType], false, "grid-units");
             }
         }
         if (unitWithScore) {

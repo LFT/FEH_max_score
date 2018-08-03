@@ -11,8 +11,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "Alphonse": new Unit({
-    "name": "Alphonse",
+  "Alfonse": new Unit({
+    "name": "Alfonse",
     "moveType": "infantry",
     "weaponType": "sword",
     "bst": 157,
@@ -23,8 +23,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "HF!Alphonse": new Unit({
-    "name": "HF!Alphonse",
+  "HF!Alfonse": new Unit({
+    "name": "HF!Alfonse",
     "moveType": "infantry",
     "weaponType": "axe",
     "bst": 157,
