@@ -23,8 +23,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "HF!Alfonse": new Unit({
-    "name": "HF!Alfonse",
+  "HF-Alfonse": new Unit({
+    "name": "HF-Alfonse",
     "moveType": "infantry",
     "weaponType": "axe",
     "bst": 157,
@@ -167,8 +167,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "NY!Azura": new Unit({
-    "name": "NY!Azura",
+  "NY-Azura": new Unit({
+    "name": "NY-Azura",
     "moveType": "flier",
     "weaponType": "axe",
     "bst": 150,
@@ -179,8 +179,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "PA!Azura": new Unit({
-    "name": "PA!Azura",
+  "PA-Azura": new Unit({
+    "name": "PA-Azura",
     "moveType": "infantry",
     "weaponType": "axe",
     "bst": 149,
@@ -275,8 +275,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "B!Caeda": new Unit({
-    "name": "B!Caeda",
+  "B-Caeda": new Unit({
+    "name": "B-Caeda",
     "moveType": "infantry",
     "weaponType": "blueTome",
     "bst": 148,
@@ -311,8 +311,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "NY!Camilla": new Unit({
-    "name": "NY!Camilla",
+  "NY-Camilla": new Unit({
+    "name": "NY-Camilla",
     "moveType": "flier",
     "weaponType": "sword",
     "bst": 162,
@@ -323,8 +323,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "S!Camilla": new Unit({
-    "name": "S!Camilla",
+  "S-Camilla": new Unit({
+    "name": "S-Camilla",
     "moveType": "flier",
     "weaponType": "greenTome",
     "bst": 148,
@@ -335,8 +335,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "SS!Camilla": new Unit({
-    "name": "SS!Camilla",
+  "SS-Camilla": new Unit({
+    "name": "SS-Camilla",
     "moveType": "flier",
     "weaponType": "blueTome",
     "bst": 150,
@@ -383,8 +383,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "S!Catria": new Unit({
-    "name": "S!Catria",
+  "S-Catria": new Unit({
+    "name": "S-Catria",
     "moveType": "cavalry",
     "weaponType": "blueTome",
     "bst": 144,
@@ -419,8 +419,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "FH!Celica": new Unit({
-    "name": "FH!Celica",
+  "FH-Celica": new Unit({
+    "name": "FH-Celica",
     "moveType": "infantry",
     "weaponType": "sword",
     "bst": 163,
@@ -431,8 +431,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "B!Charlotte": new Unit({
-    "name": "B!Charlotte",
+  "B-Charlotte": new Unit({
+    "name": "B-Charlotte",
     "moveType": "infantry",
     "weaponType": "lance",
     "bst": 157,
@@ -467,8 +467,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "NY!Chrom": new Unit({
-    "name": "NY!Chrom",
+  "NY-Chrom": new Unit({
+    "name": "NY-Chrom",
     "moveType": "armor",
     "weaponType": "axe",
     "bst": 174,
@@ -479,8 +479,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "K!Chrom": new Unit({
-    "name": "K!Chrom",
+  "K-Chrom": new Unit({
+    "name": "K-Chrom",
     "moveType": "cavalry",
     "weaponType": "sword",
     "bst": 157,
@@ -491,8 +491,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "S!Chrom": new Unit({
-    "name": "S!Chrom",
+  "S-Chrom": new Unit({
+    "name": "S-Chrom",
     "moveType": "infantry",
     "weaponType": "axe",
     "bst": 158,
@@ -563,8 +563,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "S!Cordelia": new Unit({
-    "name": "S!Cordelia",
+  "S-Cordelia": new Unit({
+    "name": "S-Cordelia",
     "moveType": "cavalry",
     "weaponType": "lance",
     "bst": 157,
@@ -575,8 +575,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "B!Cordelia": new Unit({
-    "name": "B!Cordelia",
+  "B-Cordelia": new Unit({
+    "name": "B-Cordelia",
     "moveType": "infantry",
     "weaponType": "bow",
     "bst": 147,
@@ -587,8 +587,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "F!Corrin": new Unit({
-    "name": "F!Corrin",
+  "F-Corrin": new Unit({
+    "name": "F-Corrin",
     "moveType": "infantry",
     "weaponType": "blueBreath",
     "bst": 157,
@@ -599,8 +599,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "M!Corrin": new Unit({
-    "name": "M!Corrin",
+  "M-Corrin": new Unit({
+    "name": "M-Corrin",
     "moveType": "infantry",
     "weaponType": "sword",
     "bst": 158,
@@ -611,8 +611,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "NY!Corrin": new Unit({
-    "name": "NY!Corrin",
+  "NY-Corrin": new Unit({
+    "name": "NY-Corrin",
     "moveType": "infantry",
     "weaponType": "bow",
     "bst": 151,
@@ -623,8 +623,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "S!Corrin": new Unit({
-    "name": "S!Corrin",
+  "S-Corrin": new Unit({
+    "name": "S-Corrin",
     "moveType": "flier",
     "weaponType": "blueTome",
     "bst": 147,
@@ -719,8 +719,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "F!Eirika": new Unit({
-    "name": "F!Eirika",
+  "F-Eirika": new Unit({
+    "name": "F-Eirika",
     "moveType": "infantry",
     "weaponType": "redTome",
     "bst": 144,
@@ -767,8 +767,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "S!Elise": new Unit({
-    "name": "S!Elise",
+  "S-Elise": new Unit({
+    "name": "S-Elise",
     "moveType": "infantry",
     "weaponType": "greenTome",
     "bst": 147,
@@ -779,8 +779,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "LA!Eliwood": new Unit({
-    "name": "LA!Eliwood",
+  "LA-Eliwood": new Unit({
+    "name": "LA-Eliwood",
     "moveType": "armor",
     "weaponType": "lance",
     "bst": 175,
@@ -815,8 +815,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "L!Ephraim": new Unit({
-    "name": "L!Ephraim",
+  "L-Ephraim": new Unit({
+    "name": "L-Ephraim",
     "moveType": "cavalry",
     "weaponType": "lance",
     "bst": 157,
@@ -935,8 +935,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "S!Frederick": new Unit({
-    "name": "S!Frederick",
+  "S-Frederick": new Unit({
+    "name": "S-Frederick",
     "moveType": "infantry",
     "weaponType": "dagger",
     "bst": 149,
@@ -959,8 +959,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "S!Gaius": new Unit({
-    "name": "S!Gaius",
+  "S-Gaius": new Unit({
+    "name": "S-Gaius",
     "moveType": "infantry",
     "weaponType": "bow",
     "bst": 148,
@@ -1103,8 +1103,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "LA!Hector": new Unit({
-    "name": "LA!Hector",
+  "LA-Hector": new Unit({
+    "name": "LA-Hector",
     "moveType": "armor",
     "weaponType": "axe",
     "bst": 173,
@@ -1115,8 +1115,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "L!Hector": new Unit({
-    "name": "L!Hector",
+  "L-Hector": new Unit({
+    "name": "L-Hector",
     "moveType": "armor",
     "weaponType": "axe",
     "bst": 174,
@@ -1139,8 +1139,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "H!Henry": new Unit({
-    "name": "H!Henry",
+  "H-Henry": new Unit({
+    "name": "H-Henry",
     "moveType": "armor",
     "weaponType": "greenTome",
     "bst": 165,
@@ -1175,8 +1175,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "BSW!Hinoka": new Unit({
-    "name": "BSW!Hinoka",
+  "BSW-Hinoka": new Unit({
+    "name": "BSW-Hinoka",
     "moveType": "flier",
     "weaponType": "bow",
     "bst": 150,
@@ -1199,8 +1199,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "B!Ike": new Unit({
-    "name": "B!Ike",
+  "B-Ike": new Unit({
+    "name": "B-Ike",
     "moveType": "infantry",
     "weaponType": "axe",
     "bst": 162,
@@ -1211,8 +1211,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "L!Ike": new Unit({
-    "name": "L!Ike",
+  "L-Ike": new Unit({
+    "name": "L-Ike",
     "moveType": "infantry",
     "weaponType": "sword",
     "bst": 163,
@@ -1247,8 +1247,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "S!Innes": new Unit({
-    "name": "S!Innes",
+  "S-Innes": new Unit({
+    "name": "S-Innes",
     "moveType": "flier",
     "weaponType": "axe",
     "bst": 162,
@@ -1307,8 +1307,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "H!Jakob": new Unit({
-    "name": "H!Jakob",
+  "H-Jakob": new Unit({
+    "name": "H-Jakob",
     "moveType": "armor",
     "weaponType": "bow",
     "bst": 165,
@@ -1379,8 +1379,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "S!Kagero": new Unit({
-    "name": "S!Kagero",
+  "S-Kagero": new Unit({
+    "name": "S-Kagero",
     "moveType": "flier",
     "weaponType": "dagger",
     "bst": 150,
@@ -1391,8 +1391,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "F!Kana": new Unit({
-    "name": "F!Kana",
+  "F-Kana": new Unit({
+    "name": "F-Kana",
     "moveType": "infantry",
     "weaponType": "greenBreath",
     "bst": 163,
@@ -1403,8 +1403,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "M!Kana": new Unit({
-    "name": "M!Kana",
+  "M-Kana": new Unit({
+    "name": "M-Kana",
     "moveType": "infantry",
     "weaponType": "blueBreath",
     "bst": 164,
@@ -1571,8 +1571,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "S!Leo": new Unit({
-    "name": "S!Leo",
+  "S-Leo": new Unit({
+    "name": "S-Leo",
     "moveType": "infantry",
     "weaponType": "redTome",
     "bst": 147,
@@ -1619,8 +1619,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "LA!Lilina": new Unit({
-    "name": "LA!Lilina",
+  "LA-Lilina": new Unit({
+    "name": "LA-Lilina",
     "moveType": "cavalry",
     "weaponType": "greenTome",
     "bst": 145,
@@ -1643,8 +1643,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "S!Linde": new Unit({
-    "name": "S!Linde",
+  "S-Linde": new Unit({
+    "name": "S-Linde",
     "moveType": "cavalry",
     "weaponType": "dagger",
     "bst": 144,
@@ -1679,8 +1679,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "NY!Lissa": new Unit({
-    "name": "NY!Lissa",
+  "NY-Lissa": new Unit({
+    "name": "NY-Lissa",
     "moveType": "armor",
     "weaponType": "axe",
     "bst": 175,
@@ -1727,8 +1727,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "B!Lucina": new Unit({
-    "name": "B!Lucina",
+  "B-Lucina": new Unit({
+    "name": "B-Lucina",
     "moveType": "infantry",
     "weaponType": "lance",
     "bst": 157,
@@ -1739,8 +1739,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "L!Lucina": new Unit({
-    "name": "L!Lucina",
+  "L-Lucina": new Unit({
+    "name": "L-Lucina",
     "moveType": "infantry",
     "weaponType": "blueBow",
     "bst": 150,
@@ -1751,8 +1751,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "S!Lucina": new Unit({
-    "name": "S!Lucina",
+  "S-Lucina": new Unit({
+    "name": "S-Lucina",
     "moveType": "infantry",
     "weaponType": "blueTome",
     "bst": 147,
@@ -1823,8 +1823,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "B!Lyn": new Unit({
-    "name": "B!Lyn",
+  "B-Lyn": new Unit({
+    "name": "B-Lyn",
     "moveType": "infantry",
     "weaponType": "staff",
     "bst": 148,
@@ -1835,8 +1835,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "BH!Lyn": new Unit({
-    "name": "BH!Lyn",
+  "BH-Lyn": new Unit({
+    "name": "BH-Lyn",
     "moveType": "cavalry",
     "weaponType": "bow",
     "bst": 149,
@@ -1847,8 +1847,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "L!Lyn": new Unit({
-    "name": "L!Lyn",
+  "L-Lyn": new Unit({
+    "name": "L-Lyn",
     "moveType": "infantry",
     "weaponType": "greenBow",
     "bst": 151,
@@ -1859,8 +1859,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "LA!Lyn": new Unit({
-    "name": "LA!Lyn",
+  "LA-Lyn": new Unit({
+    "name": "LA-Lyn",
     "moveType": "armor",
     "weaponType": "blueTome",
     "bst": 165,
@@ -1943,8 +1943,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "B!Marth": new Unit({
-    "name": "B!Marth",
+  "B-Marth": new Unit({
+    "name": "B-Marth",
     "moveType": "cavalry",
     "weaponType": "axe",
     "bst": 157,
@@ -1955,8 +1955,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "M!Marth": new Unit({
-    "name": "M!Marth",
+  "M-Marth": new Unit({
+    "name": "M-Marth",
     "moveType": "infantry",
     "weaponType": "sword",
     "bst": 157,
@@ -2063,8 +2063,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "F!Morgan": new Unit({
-    "name": "F!Morgan",
+  "F-Morgan": new Unit({
+    "name": "F-Morgan",
     "moveType": "flier",
     "weaponType": "blueTome",
     "bst": 150,
@@ -2075,8 +2075,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "M!Morgan": new Unit({
-    "name": "M!Morgan",
+  "M-Morgan": new Unit({
+    "name": "M-Morgan",
     "moveType": "infantry",
     "weaponType": "redTome",
     "bst": 150,
@@ -2171,8 +2171,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "B!Ninian": new Unit({
-    "name": "B!Ninian",
+  "B-Ninian": new Unit({
+    "name": "B-Ninian",
     "moveType": "flier",
     "weaponType": "blueTome",
     "bst": 140,
@@ -2195,8 +2195,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "P!Nino": new Unit({
-    "name": "P!Nino",
+  "P-Nino": new Unit({
+    "name": "P-Nino",
     "moveType": "flier",
     "weaponType": "greenTome",
     "bst": 149,
@@ -2231,8 +2231,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "H!Nowi": new Unit({
-    "name": "H!Nowi",
+  "H-Nowi": new Unit({
+    "name": "H-Nowi",
     "moveType": "flier",
     "weaponType": "redTome",
     "bst": 147,
@@ -2303,8 +2303,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "PA!Olivia": new Unit({
-    "name": "PA!Olivia",
+  "PA-Olivia": new Unit({
+    "name": "PA-Olivia",
     "moveType": "infantry",
     "weaponType": "dagger",
     "bst": 140,
@@ -2315,8 +2315,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "F!Olivia": new Unit({
-    "name": "F!Olivia",
+  "F-Olivia": new Unit({
+    "name": "F-Olivia",
     "moveType": "flier",
     "weaponType": "sword",
     "bst": 149,
@@ -2339,8 +2339,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "R!Olwen": new Unit({
-    "name": "R!Olwen",
+  "R-Olwen": new Unit({
+    "name": "R-Olwen",
     "moveType": "cavalry",
     "weaponType": "greenTome",
     "bst": 145,
@@ -2447,8 +2447,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "S!Reinhardt": new Unit({
-    "name": "S!Reinhardt",
+  "S-Reinhardt": new Unit({
+    "name": "S-Reinhardt",
     "moveType": "cavalry",
     "weaponType": "sword",
     "bst": 157,
@@ -2471,8 +2471,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "F!Grima": new Unit({
-    "name": "F!Grima",
+  "F-Grima": new Unit({
+    "name": "F-Grima",
     "moveType": "flier",
     "weaponType": "breath",
     "bst": 162,
@@ -2483,8 +2483,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "M!Grima": new Unit({
-    "name": "M!Grima",
+  "M-Grima": new Unit({
+    "name": "M-Grima",
     "moveType": "armor",
     "weaponType": "greenBreath",
     "bst": 174,
@@ -2495,8 +2495,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "F!Robin": new Unit({
-    "name": "F!Robin",
+  "F-Robin": new Unit({
+    "name": "F-Robin",
     "moveType": "infantry",
     "weaponType": "greenTome",
     "bst": 149,
@@ -2507,8 +2507,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "M!Robin": new Unit({
-    "name": "M!Robin",
+  "M-Robin": new Unit({
+    "name": "M-Robin",
     "moveType": "infantry",
     "weaponType": "blueTome",
     "bst": 149,
@@ -2519,8 +2519,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "SF!Robin": new Unit({
-    "name": "SF!Robin",
+  "SF-Robin": new Unit({
+    "name": "SF-Robin",
     "moveType": "infantry",
     "weaponType": "lance",
     "bst": 158,
@@ -2531,8 +2531,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "NYM!Robin": new Unit({
-    "name": "NYM!Robin",
+  "NYM-Robin": new Unit({
+    "name": "NYM-Robin",
     "moveType": "armor",
     "weaponType": "lance",
     "bst": 174,
@@ -2567,8 +2567,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "B!Roy": new Unit({
-    "name": "B!Roy",
+  "B-Roy": new Unit({
+    "name": "B-Roy",
     "moveType": "cavalry",
     "weaponType": "sword",
     "bst": 154,
@@ -2579,8 +2579,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "LA!Roy": new Unit({
-    "name": "LA!Roy",
+  "LA-Roy": new Unit({
+    "name": "LA-Roy",
     "moveType": "cavalry",
     "weaponType": "bow",
     "bst": 145,
@@ -2603,8 +2603,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "L!Ryoma": new Unit({
-    "name": "L!Ryoma",
+  "L-Ryoma": new Unit({
+    "name": "L-Ryoma",
     "moveType": "flier",
     "weaponType": "sword",
     "bst": 162,
@@ -2663,8 +2663,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "H!Sakura": new Unit({
-    "name": "H!Sakura",
+  "H-Sakura": new Unit({
+    "name": "H-Sakura",
     "moveType": "infantry",
     "weaponType": "dagger",
     "bst": 147,
@@ -2687,8 +2687,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "B!Sanaki": new Unit({
-    "name": "B!Sanaki",
+  "B-Sanaki": new Unit({
+    "name": "B-Sanaki",
     "moveType": "flier",
     "weaponType": "greenTome",
     "bst": 150,
@@ -2783,8 +2783,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "S!Sharena": new Unit({
-    "name": "S!Sharena",
+  "S-Sharena": new Unit({
+    "name": "S-Sharena",
     "moveType": "infantry",
     "weaponType": "greenTome",
     "bst": 151,
@@ -2819,8 +2819,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "PA!Shigure": new Unit({
-    "name": "PA!Shigure",
+  "PA-Shigure": new Unit({
+    "name": "PA-Shigure",
     "moveType": "infantry",
     "weaponType": "blueTome",
     "bst": 139,
@@ -2999,8 +2999,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "F!Takumi": new Unit({
-    "name": "F!Takumi",
+  "F-Takumi": new Unit({
+    "name": "F-Takumi",
     "moveType": "infantry",
     "weaponType": "bow",
     "bst": 151,
@@ -3011,8 +3011,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "NY!Takumi": new Unit({
-    "name": "NY!Takumi",
+  "NY-Takumi": new Unit({
+    "name": "NY-Takumi",
     "moveType": "infantry",
     "weaponType": "dagger",
     "bst": 152,
@@ -3023,8 +3023,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "S!Takumi": new Unit({
-    "name": "S!Takumi",
+  "S-Takumi": new Unit({
+    "name": "S-Takumi",
     "moveType": "flier",
     "weaponType": "bow",
     "bst": 150,
@@ -3047,8 +3047,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "S!Tana": new Unit({
-    "name": "S!Tana",
+  "S-Tana": new Unit({
+    "name": "S-Tana",
     "moveType": "flier",
     "weaponType": "redTome",
     "bst": 149,
@@ -3071,8 +3071,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "B!Tharja": new Unit({
-    "name": "B!Tharja",
+  "B-Tharja": new Unit({
+    "name": "B-Tharja",
     "moveType": "infantry",
     "weaponType": "redTome",
     "bst": 151,
@@ -3083,8 +3083,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "NY!Tharja": new Unit({
-    "name": "NY!Tharja",
+  "NY-Tharja": new Unit({
+    "name": "NY-Tharja",
     "moveType": "armor",
     "weaponType": "redTome",
     "bst": 165,
@@ -3095,8 +3095,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "A!Tiki": new Unit({
-    "name": "A!Tiki",
+  "A-Tiki": new Unit({
+    "name": "A-Tiki",
     "moveType": "infantry",
     "weaponType": "redBreath",
     "bst": 157,
@@ -3107,8 +3107,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "Y!Tiki": new Unit({
-    "name": "Y!Tiki",
+  "Y-Tiki": new Unit({
+    "name": "Y-Tiki",
     "moveType": "infantry",
     "weaponType": "redBreath",
     "bst": 163,
@@ -3119,8 +3119,8 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
-  "SA!Tiki": new Unit({
-    "name": "SA!Tiki",
+  "SA-Tiki": new Unit({
+    "name": "SA-Tiki",
     "moveType": "infantry",
     "weaponType": "axe",
     "bst": 157,
@@ -3131,8 +3131,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "SY!Tiki": new Unit({
-    "name": "SY!Tiki",
+  "SY-Tiki": new Unit({
+    "name": "SY-Tiki",
     "moveType": "flier",
     "weaponType": "redBreath",
     "bst": 168,
@@ -3239,8 +3239,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "S!Xander": new Unit({
-    "name": "S!Xander",
+  "S-Xander": new Unit({
+    "name": "S-Xander",
     "moveType": "cavalry",
     "weaponType": "lance",
     "bst": 154,
@@ -3251,8 +3251,8 @@ const units = {
     "seasonnal": true,
     "only5Star": true
   }),
-  "SS!Xander": new Unit({
-    "name": "SS!Xander",
+  "SS-Xander": new Unit({
+    "name": "SS-Xander",
     "moveType": "infantry",
     "weaponType": "axe",
     "bst": 157,

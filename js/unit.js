@@ -34,3 +34,5 @@ class Unit {
 
 
 // to replace generated unit list: (\{[^}]+\}) -> new Unit\(\1\)
+// pictures created using sprity create ./out *.png -e jimp -s icons.css
+// pictures created using sprity create ./out heroes/*.png -e jimp -s heroes.css

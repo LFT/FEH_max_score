@@ -18,7 +18,6 @@
     align-items: center;
 
 }
-
 .grid-weapons {
 }
 .grid-scores {
@@ -33,10 +32,10 @@
     align-items: center;
 }
 
-.grid-units img {
+.grid-units i {
     flex: 0 0 auto;
-    height: 40px;
-    margin: 1px;
+    margin: -20px;
+    transform : scale(0.55);
 }
 
 /* Selectors stuff */
@@ -55,9 +54,14 @@
     flex: 1 0 auto;
     text-align: center;
 }
-.checkbox-row img {
-    height: 20px;
-    vertical-align: text-top;
+.checkbox-row i {
+    vertical-align: middle;
+}
+.checkbox-row span {
+    vertical-align: middle;
+}
+#column-filters i {
+    transform : scale(0.7);
 }
 .checkbox-row input {
     vertical-align: middle;

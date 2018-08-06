@@ -28,7 +28,7 @@ function generateScoreList() {
             if (!scores.unitScoreList[score][realUnit.weaponType]) {
                 scores.unitScoreList[score][realUnit.weaponType] = [];
             }
-            scores.unitScoreList[score][realUnit.weaponType].push("heroes/" + unit);
+            scores.unitScoreList[score][realUnit.weaponType].push("hero-icon icon-" + unit);
         }
     }
     scores.scoreList.sort().reverse();
@@ -36,14 +36,12 @@ function generateScoreList() {
 
 function add1x1Cell(grid, x, y, content, isTextContent, className) {
     let cell = document.createElement("div");
-    console.log(content);
     if (isTextContent) {
         cell.textContent =  content;
     } else {
         for (let i = 0; i < content.length; i++) {
-            let img = document.createElement("img");
-            img.src = "pictures/" + content[i] + ".png";
-            img.alt = content[i];
+            let img = document.createElement("i");
+            img.className = "ib " + content[i];
             cell.appendChild(img);
         }
     }
@@ -59,7 +57,7 @@ function drawMatrix() {
         grid.removeChild(grid.firstChild);
     }
     for (let i = 0; i < scores.columnList.length; i++) {
-        add1x1Cell(grid,2 + i, 1, [scores.columnList[i]], false, "grid-weapons");
+        add1x1Cell(grid,2 + i, 1, ["icon icon-" + scores.columnList[i]], false, "grid-weapons");
     }
     for (let i = 0; i < scores.scoreList.length; i++) {
         let score = scores.scoreList[i];
@@ -79,9 +77,8 @@ function drawMatrix() {
 
 function generateCheckboxes(columnTemplate, name) {
     let clone = document.importNode(columnTemplate.content, true);
-    let cloneImg = clone.querySelector("img");
-    cloneImg.src = "pictures/" + name + ".png";
-    cloneImg.alt = name;
+    let cloneImg = clone.querySelector("i");
+    cloneImg.className = "ib icon icon-" + name;
     let cloneInput = clone.querySelector("input");
     cloneInput.name = name;
     return clone;

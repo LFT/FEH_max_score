@@ -1,0 +1,110 @@
+
+.icon {
+  background-image: url('../images/icon-sprite.png');
+}
+
+.icon-flier {
+  background-position: -0px -0px;
+  width: 28px;
+  height: 28px;
+}
+.icon-5star {
+  background-position: -0px -28px;
+  width: 28px;
+  height: 28px;
+}
+.icon-infantry {
+  background-position: -0px -56px;
+  width: 28px;
+  height: 28px;
+}
+.icon-armor {
+  background-position: -0px -84px;
+  width: 28px;
+  height: 28px;
+}
+.icon-cavalry {
+  background-position: -0px -112px;
+  width: 28px;
+  height: 28px;
+}
+.icon-greenTome {
+  background-position: -0px -140px;
+  width: 40px;
+  height: 40px;
+}
+.icon-blueTome {
+  background-position: -0px -180px;
+  width: 40px;
+  height: 40px;
+}
+.icon-breath {
+  background-position: -0px -220px;
+  width: 40px;
+  height: 40px;
+}
+.icon-blueBreath {
+  background-position: -0px -260px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dagger {
+  background-position: -0px -300px;
+  width: 40px;
+  height: 40px;
+}
+.icon-blueBow {
+  background-position: -0px -340px;
+  width: 40px;
+  height: 40px;
+}
+.icon-greenBow {
+  background-position: -0px -380px;
+  width: 40px;
+  height: 40px;
+}
+.icon-greenBreath {
+  background-position: -0px -420px;
+  width: 40px;
+  height: 40px;
+}
+.icon-bow {
+  background-position: -0px -460px;
+  width: 40px;
+  height: 40px;
+}
+.icon-axe {
+  background-position: -0px -500px;
+  width: 40px;
+  height: 40px;
+}
+.icon-lance {
+  background-position: -0px -540px;
+  width: 40px;
+  height: 40px;
+}
+.icon-redBow {
+  background-position: -0px -580px;
+  width: 40px;
+  height: 40px;
+}
+.icon-redBreath {
+  background-position: -0px -620px;
+  width: 40px;
+  height: 40px;
+}
+.icon-redTome {
+  background-position: -0px -660px;
+  width: 40px;
+  height: 40px;
+}
+.icon-staff {
+  background-position: -0px -700px;
+  width: 40px;
+  height: 40px;
+}
+.icon-sword {
+  background-position: -0px -740px;
+  width: 40px;
+  height: 40px;
+}

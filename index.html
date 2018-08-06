@@ -8,6 +8,8 @@
         <script src="js/weaponTypeList.js" type="text/javascript"></script>
         <script src="js/app.js" type="text/javascript"></script>
         <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/icons.css">
+        <link rel="stylesheet" href="css/heroes.css">
         <meta charset="utf-8" />
     </head>
     <body>
@@ -28,10 +30,10 @@
         <div class="filters" id="unit-filters">
             <div class="column-title">Unit filtering</div>
             <div class="checkbox-row" id="unit-checkboxes">
-                <label class="ib">Seasonnals units
+                <label class="ib"><span>Seasonnals units
                     <input autocomplete="off" class="filter-checkbox" type="checkbox" name="season" checked />
                 </label>
-                <label class="ib">5 <img src="pictures/5star.png"> locked units
+                <label class="ib"><i class="ib icon icon-5star"></i><span>locked units</span>
                     <input autocomplete="off" class="filter-checkbox" name="star5" type="checkbox" checked />
                 </label>
             </div>
@@ -46,10 +48,10 @@
 
         </div>
         <template id="checkbox-template">
-            <label class="ib"><img><input autocomplete="off" class="column-checkbox" type="checkbox" checked/></label>
+            <label class="ib"><i></i><input autocomplete="off" class="column-checkbox" type="checkbox" checked/></label>
         </template>
         <template id="checkbox-deplacement-template">
-            <label class="ib"><img><input autocomplete="off" class="deplacement-checkbox" type="checkbox" checked/></label>
+            <label class="ib"><i></i><input autocomplete="off" class="deplacement-checkbox" type="checkbox" checked/></label>
         </template>
     </body>
 </html>
