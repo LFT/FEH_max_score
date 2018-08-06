@@ -239,8 +239,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "Black Knight": new Unit({
-    "name": "Black Knight",
+  "Black-Knight": new Unit({
+    "name": "Black-Knight",
     "moveType": "armor",
     "weaponType": "sword",
     "bst": 169,
@@ -1475,8 +1475,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "L'Arachel": new Unit({
-    "name": "L'Arachel",
+  "L-Arachel": new Unit({
+    "name": "L-Arachel",
     "moveType": "cavalry",
     "weaponType": "blueTome",
     "bst": 145,
@@ -1703,8 +1703,8 @@ const units = {
     "seasonnal": false,
     "only5Star": false
   }),
-  "Lon'qu": new Unit({
-    "name": "Lon'qu",
+  "Lon-qu": new Unit({
+    "name": "Lon-qu",
     "moveType": "infantry",
     "weaponType": "sword",
     "bst": 157,
