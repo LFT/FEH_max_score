@@ -69,7 +69,8 @@ function drawMatrix() {
             let weaponType = scores.columnList[j];
             if (scores.unitScoreList[score][weaponType]) {
                 unitWithScore = true;
-                add1x1Cell(grid, j + 2, i + 2, scores.unitScoreList[score][weaponType], false, "grid-units");
+                let className = i % 2 === 0 ? "even" : "odd";
+                add1x1Cell(grid, j + 2, i + 2, scores.unitScoreList[score][weaponType], false, "grid-units " + className);
             }
         }
         if (unitWithScore) {
