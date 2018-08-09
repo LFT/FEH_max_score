@@ -66,6 +66,10 @@
 .checkbox-row input {
     vertical-align: middle;
 }
+.checkbox-row .icon-blueBow, .checkbox-row .icon-greenBow, .checkbox-row .icon-redBow {
+    margin-bottom : -15px;
+    margin-top: -15px;
+}
 #unit-filters, #score-filters {
     display :flex
 }

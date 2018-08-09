@@ -53,12 +53,12 @@
   width: 40px;
   height: 40px;
 }
-.icon-blueBow {
+.icon-staff {
   background-position: -0px -340px;
   width: 40px;
   height: 40px;
 }
-.icon-greenBow {
+.icon-redTome {
   background-position: -0px -380px;
   width: 40px;
   height: 40px;
@@ -83,28 +83,28 @@
   width: 40px;
   height: 40px;
 }
-.icon-redBow {
+.icon-redBreath {
   background-position: -0px -580px;
   width: 40px;
   height: 40px;
 }
-.icon-redBreath {
+.icon-sword {
   background-position: -0px -620px;
   width: 40px;
   height: 40px;
 }
-.icon-redTome {
+.icon-redBow {
   background-position: -0px -660px;
   width: 40px;
-  height: 40px;
+  height: 72px;
 }
-.icon-staff {
-  background-position: -0px -700px;
+.icon-greenBow {
+  background-position: -0px -732px;
   width: 40px;
-  height: 40px;
+  height: 72px;
 }
-.icon-sword {
-  background-position: -0px -740px;
+.icon-blueBow {
+  background-position: -0px -804px;
   width: 40px;
-  height: 40px;
+  height: 72px;
 }
