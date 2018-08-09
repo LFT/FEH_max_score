@@ -755,6 +755,18 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
+  "PA-Elincia": new Unit({
+    "name": "PA-Elincia",
+    "moveType": "infantry",
+    "weaponType": "greenBow",
+    "bst": 139,
+    "hasSuperBoon": true,
+    "maxSp": 2170,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": true,
+    "only5Star": true
+  }),
   "Elise": new Unit({
     "name": "Elise",
     "moveType": "cavalry",
@@ -2027,6 +2039,18 @@ const units = {
     "seasonnal": false,
     "only5Star": true
   }),
+  "PA-Micaiah": new Unit({
+    "name": "PA-Micaiah",
+    "moveType": "infantry",
+    "weaponType": "redTome",
+    "bst": 139,
+    "hasSuperBoon": true,
+    "maxSp": 2220,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": true,
+    "only5Star": true
+  }),
   "Michalis": new Unit({
     "name": "Michalis",
     "moveType": "flier",
@@ -2613,6 +2637,18 @@ const units = {
     "maxMerge": 10,
     "isLegendary": true,
     "seasonnal": false,
+    "only5Star": true
+  }),
+  "PA-Ryoma": new Unit({
+    "name": "PA-Ryoma",
+    "moveType": "infantry",
+    "weaponType": "blueBow",
+    "bst": 140,
+    "hasSuperBoon": false,
+    "maxSp": 2170,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": true,
     "only5Star": true
   }),
   "Saber": new Unit({
@@ -3238,6 +3274,18 @@ const units = {
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
+  }),
+  "PA-Xander": new Unit({
+    "name": "PA-Xander",
+    "moveType": "infantry",
+    "weaponType": "dagger",
+    "bst": 140,
+    "hasSuperBoon": false,
+    "maxSp": 2170,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": true,
+    "only5Star": true
   }),
   "S-Xander": new Unit({
     "name": "S-Xander",
