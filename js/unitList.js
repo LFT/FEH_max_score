@@ -1617,7 +1617,7 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": false
   }),
   "Lilina": new Unit({
     "name": "Lilina",
