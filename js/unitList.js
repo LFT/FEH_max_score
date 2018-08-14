@@ -78,7 +78,7 @@ const units = {
     "bst": 169,
     "hasSuperBoon": false,
     "maxSp": 2170,
-    "maxMerge": 1,
+    "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
@@ -246,7 +246,7 @@ const units = {
     "bst": 169,
     "hasSuperBoon": false,
     "maxSp": 2220,
-    "maxMerge": 2,
+    "maxMerge": 3,
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
@@ -1350,7 +1350,7 @@ const units = {
     "bst": 164,
     "hasSuperBoon": false,
     "maxSp": 2220,
-    "maxMerge": 1,
+    "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
@@ -1974,7 +1974,7 @@ const units = {
     "bst": 157,
     "hasSuperBoon": false,
     "maxSp": 2220,
-    "maxMerge": 7,
+    "maxMerge": 8,
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false
@@ -3198,7 +3198,7 @@ const units = {
     "bst": 163,
     "hasSuperBoon": false,
     "maxSp": 2170,
-    "maxMerge": 1,
+    "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
     "only5Star": false

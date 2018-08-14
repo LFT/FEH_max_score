@@ -5,7 +5,7 @@ const scores = {
     "season" : true,
     "star5" : true,
     "bonus" : false,
-    "bonusUnits" : ["F-Olivia", "Sumia", "Libra", "Maribelle", "Walhart", "Zephiel", "Henry", "Mae", "Saizo", "Fjorm"],
+    "bonusUnits" : ["L-Lucina", "PA-Micaiah", "PA-Elincia", "PA-Ryoma", "PA-Xander", "F-Takumi", "Arvis", "Roderick", "Frederick", "Alfonse"],
     "includedMoveTypes" : ["infantry", "flier", "cavalry", "armor"],
     "columnList" : ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"],
     "scoreList" : [],
