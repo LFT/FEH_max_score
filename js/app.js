@@ -1,3 +1,4 @@
+'use strict';
 const scores = {
     "numberOfBlessing" : 0,
     "merge" : true,
@@ -33,22 +34,34 @@ function generateScoreList() {
             if (!scores.unitScoreList[score][realUnit.weaponType]) {
                 scores.unitScoreList[score][realUnit.weaponType] = [];
             }
-            scores.unitScoreList[score][realUnit.weaponType].push("hero-icon icon-" + unit);
+            scores.unitScoreList[score][realUnit.weaponType].push(realUnit);
         }
     }
     scores.scoreList.sort().reverse();
 }
 
-function add1x1Cell(grid, x, y, content, isTextContent, className) {
+function add1x1Cell(grid, x, y, content, contentType, className) {
     let cell = document.createElement("div");
-    if (isTextContent) {
-        cell.textContent =  content;
-    } else {
-        for (let i = 0; i < content.length; i++) {
+    switch (contentType) {
+        case "score":
+            cell.textContent = content;
+            break;
+        case "weapon" :
             let img = document.createElement("i");
-            img.className = "ib " + content[i];
+            img.className = "ib icon icon-" + content;
             cell.appendChild(img);
-        }
+            break;
+        case "unit" :
+            for (let i = 0; i < content.length; i++) {
+                let wikiLink = document.createElement("a");
+                wikiLink.href = "https://feheroes.gamepedia.com/" + content[i].wikiLink;
+                wikiLink.target = "_blank";
+                let img = document.createElement("i");
+                img.className = "ib hero-icon icon-" + content[i].name;
+                wikiLink.appendChild(img);
+                cell.appendChild(wikiLink);
+            }
+            break;
     }
     cell.style.gridColumn = x + " / span 1";
     cell.style.gridRow = y + " / span 1";
@@ -62,7 +75,7 @@ function drawMatrix() {
         grid.removeChild(grid.firstChild);
     }
     for (let i = 0; i < scores.columnList.length; i++) {
-        add1x1Cell(grid,2 + i, 1, ["icon icon-" + scores.columnList[i]], false, "grid-weapons");
+        add1x1Cell(grid,2 + i, 1, scores.columnList[i], "weapon", "grid-weapons");
     }
     for (let i = 0; i < scores.scoreList.length; i++) {
         let score = scores.scoreList[i];
@@ -72,11 +85,11 @@ function drawMatrix() {
             if (scores.unitScoreList[score][weaponType]) {
                 unitWithScore = true;
                 let className = i % 2 === 0 ? "even" : "odd";
-                add1x1Cell(grid, j + 2, i + 2, scores.unitScoreList[score][weaponType], false, "grid-units " + className);
+                add1x1Cell(grid, j + 2, i + 2, scores.unitScoreList[score][weaponType], "unit", "grid-units " + className);
             }
         }
         if (unitWithScore) {
-            add1x1Cell(grid, 1, 2 + i, score, true, "grid-scores");
+            add1x1Cell(grid, 1, 2 + i, score, "score", "grid-scores");
         }
     }
 }
@@ -157,6 +170,7 @@ function handleUnits(evt) {
         break;
         case "blessings" :
             scores.numberOfBlessing = Number.parseInt(evt.target.value, 10);
+            break;
         default:
             updateMoveFilters();
         break;
