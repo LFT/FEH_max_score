@@ -4,6 +4,7 @@ const scores = {
     "boon" : true,
     "season" : true,
     "star5" : true,
+    "limited" : true,
     "bonus" : false,
     "bonusUnits" : ["L-Lucina", "PA-Micaiah", "PA-Elincia", "PA-Ryoma", "PA-Xander", "F-Takumi", "Arvis", "Roderick", "Frederick", "Alfonse"],
     "includedMoveTypes" : ["infantry", "flier", "cavalry", "armor"],
@@ -21,6 +22,7 @@ function generateScoreList() {
         let realUnit = units[unit];
         if ((scores.star5 || !realUnit.only5Star) &&
             (scores.season || !realUnit.seasonnal) &&
+            (scores.limited || !realUnit.limited) &&
             scores.includedMoveTypes.indexOf(realUnit.moveType) > -1 &&
             (!scores.bonus || scores.bonusUnits.indexOf(unit) > -1)) {
             let score = realUnit.calculateScore(scores.numberOfBlessing, scores.merge, scores.boon);
@@ -149,6 +151,7 @@ function handleUnits(evt) {
         case "season" :
         case "boon" :
         case "merge" :
+        case "limited" :
         case "bonus" :
             scores[evt.target.name] = evt.target.checked;
         break;

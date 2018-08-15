@@ -9,7 +9,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Abel:_The_Panther"
   }),
   "Alfonse": new Unit({
     "name": "Alfonse",
@@ -21,7 +23,9 @@ const units = {
     "maxMerge": 0,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Alfonse:_Prince_of_Askr"
   }),
   "HF-Alfonse": new Unit({
     "name": "HF-Alfonse",
@@ -33,7 +37,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Alfonse:_Spring_Prince"
   }),
   "Alm": new Unit({
     "name": "Alm",
@@ -45,7 +51,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Alm:_Hero_of_Prophecy"
   }),
   "Amelia": new Unit({
     "name": "Amelia",
@@ -57,7 +65,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Amelia:_Rose_of_the_War"
   }),
   "Anna": new Unit({
     "name": "Anna",
@@ -69,7 +79,9 @@ const units = {
     "maxMerge": 0,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Anna:_Commander"
   }),
   "Arden": new Unit({
     "name": "Arden",
@@ -81,7 +93,9 @@ const units = {
     "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Arden:_Strong_and_Tough"
   }),
   "Ares": new Unit({
     "name": "Ares",
@@ -93,7 +107,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Ares:_Black_Knight"
   }),
   "Arthur": new Unit({
     "name": "Arthur",
@@ -105,7 +121,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Arthur:_Hapless_Hero"
   }),
   "Arvis": new Unit({
     "name": "Arvis",
@@ -117,7 +135,9 @@ const units = {
     "maxMerge": 4,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Arvis:_Emperor_of_Flame"
   }),
   "Athena": new Unit({
     "name": "Athena",
@@ -129,7 +149,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Athena:_Borderland_Sword"
   }),
   "Ayra": new Unit({
     "name": "Ayra",
@@ -141,7 +163,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ayra:_Astra%27s_Wielder"
   }),
   "Azama": new Unit({
     "name": "Azama",
@@ -153,7 +177,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Azama:_Carefree_Monk"
   }),
   "Azura": new Unit({
     "name": "Azura",
@@ -165,7 +191,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Azura:_Lady_of_the_Lake"
   }),
   "NY-Azura": new Unit({
     "name": "NY-Azura",
@@ -177,7 +205,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Azura:_Celebratory_Spirit"
   }),
   "PA-Azura": new Unit({
     "name": "PA-Azura",
@@ -189,7 +219,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Azura:_Lady_of_Ballads"
   }),
   "Barst": new Unit({
     "name": "Barst",
@@ -201,7 +233,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Barst:_The_Hatchet"
   }),
   "Bartre": new Unit({
     "name": "Bartre",
@@ -213,7 +247,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Bartre:_Fearless_Warrior"
   }),
   "Berkut": new Unit({
     "name": "Berkut",
@@ -225,7 +261,9 @@ const units = {
     "maxMerge": 4,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Berkut:_Prideful_Prince"
   }),
   "Beruka": new Unit({
     "name": "Beruka",
@@ -237,7 +275,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Beruka:_Quiet_Assassin"
   }),
   "Black-Knight": new Unit({
     "name": "Black-Knight",
@@ -249,7 +289,9 @@ const units = {
     "maxMerge": 3,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Black_Knight:_Sinister_General"
   }),
   "Boey": new Unit({
     "name": "Boey",
@@ -261,7 +303,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Boey:_Skillful_Survivor"
   }),
   "Caeda": new Unit({
     "name": "Caeda",
@@ -273,7 +317,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Caeda:_Talys%27s_Heart"
   }),
   "B-Caeda": new Unit({
     "name": "B-Caeda",
@@ -285,7 +331,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Caeda:_Talys%27s_Bride"
   }),
   "Cain": new Unit({
     "name": "Cain",
@@ -297,7 +345,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Cain:_The_Bull"
   }),
   "Camilla": new Unit({
     "name": "Camilla",
@@ -309,7 +359,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Camilla:_Bewitching_Beauty"
   }),
   "NY-Camilla": new Unit({
     "name": "NY-Camilla",
@@ -321,7 +373,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Camilla:_Holiday_Traveler"
   }),
   "S-Camilla": new Unit({
     "name": "S-Camilla",
@@ -333,7 +387,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Camilla:_Spring_Princess"
   }),
   "SS-Camilla": new Unit({
     "name": "SS-Camilla",
@@ -345,7 +401,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Camilla:_Tropical_Beauty"
   }),
   "Camus": new Unit({
     "name": "Camus",
@@ -357,7 +415,9 @@ const units = {
     "maxMerge": 3,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Camus:_Sable_Knight"
   }),
   "Canas": new Unit({
     "name": "Canas",
@@ -369,7 +429,9 @@ const units = {
     "maxMerge": 1,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Canas:_Wisdom_Seeker"
   }),
   "Catria": new Unit({
     "name": "Catria",
@@ -381,7 +443,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Catria:_Middle_Whitewing"
   }),
   "S-Catria": new Unit({
     "name": "S-Catria",
@@ -393,7 +457,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Catria:_Spring_Whitewing"
   }),
   "Cecilia": new Unit({
     "name": "Cecilia",
@@ -405,7 +471,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Cecilia:_Etrurian_General"
   }),
   "Celica": new Unit({
     "name": "Celica",
@@ -417,7 +485,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Celica:_Caring_Princess"
   }),
   "FH-Celica": new Unit({
     "name": "FH-Celica",
@@ -429,7 +499,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Celica:_Imprisoned_Soul"
   }),
   "B-Charlotte": new Unit({
     "name": "B-Charlotte",
@@ -441,7 +513,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Charlotte:_Money_Maiden"
   }),
   "Cherche": new Unit({
     "name": "Cherche",
@@ -453,7 +527,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Cherche:_Wyvern_Friend"
   }),
   "Chrom": new Unit({
     "name": "Chrom",
@@ -465,7 +541,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Chrom:_Exalted_Prince"
   }),
   "NY-Chrom": new Unit({
     "name": "NY-Chrom",
@@ -477,7 +555,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Chrom:_Gifted_Leader"
   }),
   "K-Chrom": new Unit({
     "name": "K-Chrom",
@@ -489,7 +569,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Chrom:_Knight_Exalt"
   }),
   "S-Chrom": new Unit({
     "name": "S-Chrom",
@@ -501,7 +583,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Chrom:_Spring_Exalt"
   }),
   "Clair": new Unit({
     "name": "Clair",
@@ -513,7 +597,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Clair:_Highborn_Flier"
   }),
   "Clarine": new Unit({
     "name": "Clarine",
@@ -525,7 +611,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Clarine:_Refined_Noble"
   }),
   "Clarisse": new Unit({
     "name": "Clarisse",
@@ -537,7 +625,9 @@ const units = {
     "maxMerge": 5,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Clarisse:_Sniper_in_the_Dark"
   }),
   "Clive": new Unit({
     "name": "Clive",
@@ -549,7 +639,9 @@ const units = {
     "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Clive:_Idealistic_Knight"
   }),
   "Cordelia": new Unit({
     "name": "Cordelia",
@@ -561,7 +653,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Cordelia:_Knight_Paragon"
   }),
   "S-Cordelia": new Unit({
     "name": "S-Cordelia",
@@ -573,7 +667,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Cordelia:_Knight_Paradise"
   }),
   "B-Cordelia": new Unit({
     "name": "B-Cordelia",
@@ -585,7 +681,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Cordelia:_Perfect_Bride"
   }),
   "F-Corrin": new Unit({
     "name": "F-Corrin",
@@ -597,7 +695,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Corrin:_Fateful_Princess"
   }),
   "M-Corrin": new Unit({
     "name": "M-Corrin",
@@ -609,7 +709,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Corrin:_Fateful_Prince"
   }),
   "NY-Corrin": new Unit({
     "name": "NY-Corrin",
@@ -621,7 +723,9 @@ const units = {
     "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Corrin:_Enjoying_Tradition"
   }),
   "S-Corrin": new Unit({
     "name": "S-Corrin",
@@ -633,7 +737,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Corrin:_Novice_Vacationer"
   }),
   "Deirdre": new Unit({
     "name": "Deirdre",
@@ -645,7 +751,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Deirdre:_Lady_of_the_Forest"
   }),
   "Delthea": new Unit({
     "name": "Delthea",
@@ -657,7 +765,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Delthea:_Free_Spirit"
   }),
   "Donnel": new Unit({
     "name": "Donnel",
@@ -669,7 +779,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Donnel:_Village_Hero"
   }),
   "Dorcas": new Unit({
     "name": "Dorcas",
@@ -681,7 +793,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Dorcas:_Serene_Warrior"
   }),
   "Draug": new Unit({
     "name": "Draug",
@@ -693,7 +807,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Draug:_Gentle_Giant"
   }),
   "Effie": new Unit({
     "name": "Effie",
@@ -705,7 +821,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Effie:_Army_of_One"
   }),
   "Eirika": new Unit({
     "name": "Eirika",
@@ -717,7 +835,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Eirika:_Anamnesis_Lady"
   }),
   "F-Eirika": new Unit({
     "name": "F-Eirika",
@@ -729,7 +849,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Eirika:_Restoration_Lady"
   }),
   "Eldigan": new Unit({
     "name": "Eldigan",
@@ -741,7 +863,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Eldigan:_Lionheart"
   }),
   "Elincia": new Unit({
     "name": "Elincia",
@@ -753,7 +877,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Elincia:_Lost_Princess"
   }),
   "PA-Elincia": new Unit({
     "name": "PA-Elincia",
@@ -765,7 +891,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Elincia:_Estival_Princess"
   }),
   "Elise": new Unit({
     "name": "Elise",
@@ -777,7 +905,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Elise:_Budding_Flower"
   }),
   "S-Elise": new Unit({
     "name": "S-Elise",
@@ -789,7 +919,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Elise:_Tropical_Flower"
   }),
   "LA-Eliwood": new Unit({
     "name": "LA-Eliwood",
@@ -801,7 +933,9 @@ const units = {
     "maxMerge": 1,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": false,
+    "limited": true,
+    "link": "Eliwood:_Devoted_Love"
   }),
   "Eliwood": new Unit({
     "name": "Eliwood",
@@ -813,7 +947,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Eliwood:_Knight_of_Lycia"
   }),
   "Ephraim": new Unit({
     "name": "Ephraim",
@@ -825,7 +961,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ephraim:_Restoration_Lord"
   }),
   "L-Ephraim": new Unit({
     "name": "L-Ephraim",
@@ -837,7 +975,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": true,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ephraim:_Legendary_Lord"
   }),
   "Est": new Unit({
     "name": "Est",
@@ -849,7 +989,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Est:_Junior_Whitewing"
   }),
   "Fae": new Unit({
     "name": "Fae",
@@ -861,7 +1003,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Fae:_Divine_Dragon"
   }),
   "Faye": new Unit({
     "name": "Faye",
@@ -873,7 +1017,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Faye:_Devoted_Heart"
   }),
   "Felicia": new Unit({
     "name": "Felicia",
@@ -885,7 +1031,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Felicia:_Maid_Mayhem"
   }),
   "Finn": new Unit({
     "name": "Finn",
@@ -897,7 +1045,9 @@ const units = {
     "maxMerge": 1,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Finn:_Lance_of_Legend"
   }),
   "Fir": new Unit({
     "name": "Fir",
@@ -909,7 +1059,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Fir:_Sword_Student"
   }),
   "Fjorm": new Unit({
     "name": "Fjorm",
@@ -921,7 +1073,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": true,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Fjorm:_Princess_of_Ice"
   }),
   "Florina": new Unit({
     "name": "Florina",
@@ -933,7 +1087,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Florina:_Lovely_Flier"
   }),
   "Frederick": new Unit({
     "name": "Frederick",
@@ -945,7 +1101,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Frederick:_Polite_Knight"
   }),
   "S-Frederick": new Unit({
     "name": "S-Frederick",
@@ -957,7 +1115,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Frederick:_Horizon_Watcher"
   }),
   "Gaius": new Unit({
     "name": "Gaius",
@@ -969,7 +1129,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Gaius:_Candy_Stealer"
   }),
   "S-Gaius": new Unit({
     "name": "S-Gaius",
@@ -981,7 +1143,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Gaius:_Thief_Exposed"
   }),
   "Genny": new Unit({
     "name": "Genny",
@@ -993,7 +1157,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Genny:_Endearing_Ally"
   }),
   "Gerome": new Unit({
     "name": "Gerome",
@@ -1005,7 +1171,9 @@ const units = {
     "maxMerge": 1,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Gerome:_Masked_Rider"
   }),
   "Gordin": new Unit({
     "name": "Gordin",
@@ -1017,7 +1185,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Gordin:_Altean_Archer"
   }),
   "Gray": new Unit({
     "name": "Gray",
@@ -1029,7 +1199,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Gray:_Wry_Comrade"
   }),
   "Gunnthra": new Unit({
     "name": "Gunnthra",
@@ -1041,7 +1213,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Gunnthr%C3%A1:_Voice_of_Dreams"
   }),
   "Gunter": new Unit({
     "name": "Gunter",
@@ -1053,7 +1227,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Gunter:_Inveterate_Soldier"
   }),
   "Gwendolyn": new Unit({
     "name": "Gwendolyn",
@@ -1065,7 +1241,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Gwendolyn:_Adorable_Knight"
   }),
   "Hana": new Unit({
     "name": "Hana",
@@ -1077,7 +1255,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Hana:_Focused_Samurai"
   }),
   "Hardin": new Unit({
     "name": "Hardin",
@@ -1089,7 +1269,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Hardin:_Dark_Emperor"
   }),
   "Hawkeye": new Unit({
     "name": "Hawkeye",
@@ -1101,7 +1283,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Hawkeye:_Desert_Guardian"
   }),
   "Hector": new Unit({
     "name": "Hector",
@@ -1113,7 +1297,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Hector:_General_of_Ostia"
   }),
   "LA-Hector": new Unit({
     "name": "LA-Hector",
@@ -1125,7 +1311,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Hector:_Just_Here_to_Fight"
   }),
   "L-Hector": new Unit({
     "name": "L-Hector",
@@ -1137,7 +1325,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": true,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Hector:_Marquess_of_Ostia"
   }),
   "Henry": new Unit({
     "name": "Henry",
@@ -1149,7 +1339,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Henry:_Twisted_Mind"
   }),
   "H-Henry": new Unit({
     "name": "H-Henry",
@@ -1161,7 +1353,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Henry:_Happy_Vampire"
   }),
   "Hinata": new Unit({
     "name": "Hinata",
@@ -1173,7 +1367,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Hinata:_Wild_Samurai"
   }),
   "Hinoka": new Unit({
     "name": "Hinoka",
@@ -1185,7 +1381,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Hinoka:_Warrior_Princess"
   }),
   "BSW-Hinoka": new Unit({
     "name": "BSW-Hinoka",
@@ -1197,7 +1395,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Hinoka:_Blue_Sky_Warrior"
   }),
   "Ike": new Unit({
     "name": "Ike",
@@ -1209,7 +1409,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ike:_Young_Mercenary"
   }),
   "B-Ike": new Unit({
     "name": "B-Ike",
@@ -1221,7 +1423,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ike:_Brave_Mercenary"
   }),
   "L-Ike": new Unit({
     "name": "L-Ike",
@@ -1233,7 +1437,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": true,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ike:_Vanguard_Legend"
   }),
   "Inigo": new Unit({
     "name": "Inigo",
@@ -1245,7 +1451,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Inigo:_Indigo_Dancer"
   }),
   "Innes": new Unit({
     "name": "Innes",
@@ -1257,7 +1465,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Innes:_Regal_Strategician"
   }),
   "S-Innes": new Unit({
     "name": "S-Innes",
@@ -1269,7 +1479,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Innes:_Flawless_Form"
   }),
   "Ishtar": new Unit({
     "name": "Ishtar",
@@ -1281,7 +1493,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ishtar:_Thunder_Goddess"
   }),
   "Jaffar": new Unit({
     "name": "Jaffar",
@@ -1293,7 +1507,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Jaffar:_Angel_of_Death"
   }),
   "Jagen": new Unit({
     "name": "Jagen",
@@ -1305,7 +1521,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Jagen:_Veteran_Knight"
   }),
   "Jakob": new Unit({
     "name": "Jakob",
@@ -1317,7 +1535,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Jakob:_Devoted_Servant"
   }),
   "H-Jakob": new Unit({
     "name": "H-Jakob",
@@ -1329,7 +1549,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Jakob:_Devoted_Monster"
   }),
   "Jeorge": new Unit({
     "name": "Jeorge",
@@ -1341,7 +1563,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Jeorge:_Perfect_Shot"
   }),
   "Joshua": new Unit({
     "name": "Joshua",
@@ -1353,7 +1577,9 @@ const units = {
     "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Joshua:_Tempest_King"
   }),
   "Julia": new Unit({
     "name": "Julia",
@@ -1365,7 +1591,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Julia:_Naga%27s_Blood"
   }),
   "Julius": new Unit({
     "name": "Julius",
@@ -1377,7 +1605,9 @@ const units = {
     "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Julius:_Scion_of_Darkness"
   }),
   "Kagero": new Unit({
     "name": "Kagero",
@@ -1389,7 +1619,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Kagero:_Honorable_Ninja"
   }),
   "S-Kagero": new Unit({
     "name": "S-Kagero",
@@ -1401,7 +1633,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Kagero:_Spring_Ninja"
   }),
   "F-Kana": new Unit({
     "name": "F-Kana",
@@ -1413,7 +1647,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Kana:_Dragon_Princess"
   }),
   "M-Kana": new Unit({
     "name": "M-Kana",
@@ -1425,7 +1661,9 @@ const units = {
     "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Kana:_Dragon_Spawn"
   }),
   "Karel": new Unit({
     "name": "Karel",
@@ -1437,7 +1675,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Karel:_Sword_Demon"
   }),
   "Karla": new Unit({
     "name": "Karla",
@@ -1449,7 +1689,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Karla:_Sword_Vassal"
   }),
   "Katarina": new Unit({
     "name": "Katarina",
@@ -1461,7 +1703,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Katarina:_Wayward_One"
   }),
   "Kaze": new Unit({
     "name": "Kaze",
@@ -1473,7 +1717,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Kaze:_Easygoing_Ninja"
   }),
   "Klein": new Unit({
     "name": "Klein",
@@ -1485,7 +1731,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Klein:_Silver_Nobleman"
   }),
   "L-Arachel": new Unit({
     "name": "L-Arachel",
@@ -1497,7 +1745,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "L%27Arachel:_Princess_of_Light"
   }),
   "Lachesis": new Unit({
     "name": "Lachesis",
@@ -1509,7 +1759,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Lachesis:_Lionheart%27s_Sister"
   }),
   "Laslow": new Unit({
     "name": "Laslow",
@@ -1521,7 +1773,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Laslow:_Dancing_Duelist"
   }),
   "Legault": new Unit({
     "name": "Legault",
@@ -1533,7 +1787,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Legault:_The_Hurricane"
   }),
   "Legion": new Unit({
     "name": "Legion",
@@ -1545,7 +1801,9 @@ const units = {
     "maxMerge": 4,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Legion:_Masked_Maniac"
   }),
   "Leif": new Unit({
     "name": "Leif",
@@ -1557,7 +1815,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Leif:_Prince_of_Leonster"
   }),
   "Lene": new Unit({
     "name": "Lene",
@@ -1569,7 +1829,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lene:_Yearning_Dancer"
   }),
   "Leo": new Unit({
     "name": "Leo",
@@ -1581,7 +1843,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Leo:_Sorcerous_Prince"
   }),
   "S-Leo": new Unit({
     "name": "S-Leo",
@@ -1593,7 +1857,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Leo:_Seashore%27s_Prince"
   }),
   "Leon": new Unit({
     "name": "Leon",
@@ -1605,7 +1871,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Leon:_True_of_Heart"
   }),
   "Libra": new Unit({
     "name": "Libra",
@@ -1617,7 +1885,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Libra:_Fetching_Friar"
   }),
   "Lilina": new Unit({
     "name": "Lilina",
@@ -1629,7 +1899,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Lilina:_Delightful_Noble"
   }),
   "LA-Lilina": new Unit({
     "name": "LA-Lilina",
@@ -1641,7 +1913,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lilina:_Blush_of_Youth"
   }),
   "Linde": new Unit({
     "name": "Linde",
@@ -1653,7 +1927,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Linde:_Light_Mage"
   }),
   "S-Linde": new Unit({
     "name": "S-Linde",
@@ -1665,7 +1941,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Linde:_Summer_Rays"
   }),
   "Linus": new Unit({
     "name": "Linus",
@@ -1677,7 +1955,9 @@ const units = {
     "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Linus:_Mad_Dog"
   }),
   "Lissa": new Unit({
     "name": "Lissa",
@@ -1689,7 +1969,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Lissa:_Pure_Joy"
   }),
   "NY-Lissa": new Unit({
     "name": "NY-Lissa",
@@ -1701,7 +1983,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lissa:_Sprightly_Cleric"
   }),
   "Lloyd": new Unit({
     "name": "Lloyd",
@@ -1713,7 +1997,9 @@ const units = {
     "maxMerge": 4,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Lloyd:_White_Wolf"
   }),
   "Lon-qu": new Unit({
     "name": "Lon-qu",
@@ -1725,7 +2011,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Lon%27qu:_Solitary_Blade"
   }),
   "Lucina": new Unit({
     "name": "Lucina",
@@ -1737,7 +2025,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lucina:_Future_Witness"
   }),
   "B-Lucina": new Unit({
     "name": "B-Lucina",
@@ -1749,7 +2039,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lucina:_Brave_Princess"
   }),
   "L-Lucina": new Unit({
     "name": "L-Lucina",
@@ -1761,7 +2053,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": true,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lucina:_Glorious_Archer"
   }),
   "S-Lucina": new Unit({
     "name": "S-Lucina",
@@ -1773,7 +2067,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lucina:_Spring_Exalt"
   }),
   "Lucius": new Unit({
     "name": "Lucius",
@@ -1785,7 +2081,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Lucius:_The_Light"
   }),
   "Lukas": new Unit({
     "name": "Lukas",
@@ -1797,7 +2095,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Lukas:_Sharp_Soldier"
   }),
   "Luke": new Unit({
     "name": "Luke",
@@ -1809,7 +2109,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Luke:_Rowdy_Squire"
   }),
   "Lute": new Unit({
     "name": "Lute",
@@ -1821,7 +2123,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lute:_Prodigy"
   }),
   "Lyn": new Unit({
     "name": "Lyn",
@@ -1833,7 +2137,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lyn:_Lady_of_the_Plains"
   }),
   "B-Lyn": new Unit({
     "name": "B-Lyn",
@@ -1845,7 +2151,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lyn:_Bride_of_the_Plains"
   }),
   "BH-Lyn": new Unit({
     "name": "BH-Lyn",
@@ -1857,7 +2165,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lyn:_Brave_Lady"
   }),
   "L-Lyn": new Unit({
     "name": "L-Lyn",
@@ -1869,7 +2179,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": true,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lyn:_Lady_of_the_Wind"
   }),
   "LA-Lyn": new Unit({
     "name": "LA-Lyn",
@@ -1881,7 +2193,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Lyn:_Wind%27s_Embrace"
   }),
   "Lyon": new Unit({
     "name": "Lyon",
@@ -1893,7 +2207,9 @@ const units = {
     "maxMerge": 3,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Lyon:_Shadow_Prince"
   }),
   "Mae": new Unit({
     "name": "Mae",
@@ -1905,7 +2221,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Mae:_Bundle_of_Energy"
   }),
   "Maria": new Unit({
     "name": "Maria",
@@ -1917,7 +2235,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Maria:_Minerva%27s_Sister"
   }),
   "Maribelle": new Unit({
     "name": "Maribelle",
@@ -1929,7 +2249,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Maribelle:_Dire_Damsel"
   }),
   "Marisa": new Unit({
     "name": "Marisa",
@@ -1941,7 +2263,9 @@ const units = {
     "maxMerge": 1,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Marisa:_Crimson_Flash"
   }),
   "Marth": new Unit({
     "name": "Marth",
@@ -1953,7 +2277,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Marth:_Altean_Prince"
   }),
   "B-Marth": new Unit({
     "name": "B-Marth",
@@ -1965,7 +2291,9 @@ const units = {
     "maxMerge": 1,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Marth:_Altean_Groom"
   }),
   "M-Marth": new Unit({
     "name": "M-Marth",
@@ -1977,7 +2305,9 @@ const units = {
     "maxMerge": 8,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Marth:_Enigmatic_Blade"
   }),
   "Mathilda": new Unit({
     "name": "Mathilda",
@@ -1989,7 +2319,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Mathilda:_Legendary_Knight"
   }),
   "Matthew": new Unit({
     "name": "Matthew",
@@ -2001,7 +2333,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Matthew:_Faithful_Spy"
   }),
   "Merric": new Unit({
     "name": "Merric",
@@ -2013,7 +2347,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Merric:_Wind_Mage"
   }),
   "Mia": new Unit({
     "name": "Mia",
@@ -2025,7 +2361,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Mia:_Lady_of_Blades"
   }),
   "Micaiah": new Unit({
     "name": "Micaiah",
@@ -2037,7 +2375,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Micaiah:_Priestess_of_Dawn"
   }),
   "PA-Micaiah": new Unit({
     "name": "PA-Micaiah",
@@ -2049,7 +2389,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Micaiah:_Summer%27s_Dawn"
   }),
   "Michalis": new Unit({
     "name": "Michalis",
@@ -2061,7 +2403,9 @@ const units = {
     "maxMerge": 5,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Michalis:_Ambitious_King"
   }),
   "Minerva": new Unit({
     "name": "Minerva",
@@ -2073,7 +2417,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Minerva:_Red_Dragoon"
   }),
   "Mist": new Unit({
     "name": "Mist",
@@ -2085,7 +2431,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Mist:_Helpful_Sister"
   }),
   "F-Morgan": new Unit({
     "name": "F-Morgan",
@@ -2097,7 +2445,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Morgan:_Lass_from_Afar"
   }),
   "M-Morgan": new Unit({
     "name": "M-Morgan",
@@ -2109,7 +2459,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Morgan:_Lad_from_Afar"
   }),
   "Myrrh": new Unit({
     "name": "Myrrh",
@@ -2121,7 +2473,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Myrrh:_Great_Dragon"
   }),
   "Nanna": new Unit({
     "name": "Nanna",
@@ -2133,7 +2487,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Nanna:_Nordion_Princess"
   }),
   "Narcian": new Unit({
     "name": "Narcian",
@@ -2145,7 +2501,9 @@ const units = {
     "maxMerge": 6,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Narcian:_Wyvern_General"
   }),
   "Navarre": new Unit({
     "name": "Navarre",
@@ -2157,7 +2515,9 @@ const units = {
     "maxMerge": 6,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Navarre:_Scarlet_Sword"
   }),
   "Nephenee": new Unit({
     "name": "Nephenee",
@@ -2169,7 +2529,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Nephenee:_Fierce_Halberdier"
   }),
   "Niles": new Unit({
     "name": "Niles",
@@ -2181,7 +2543,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Niles:_Cruel_to_Be_Kind"
   }),
   "Ninian": new Unit({
     "name": "Ninian",
@@ -2193,7 +2557,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ninian:_Oracle_of_Destiny"
   }),
   "B-Ninian": new Unit({
     "name": "B-Ninian",
@@ -2205,7 +2571,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ninian:_Bright-Eyed_Bride"
   }),
   "Nino": new Unit({
     "name": "Nino",
@@ -2217,7 +2585,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Nino:_Pious_Mage"
   }),
   "P-Nino": new Unit({
     "name": "P-Nino",
@@ -2229,7 +2599,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Nino:_Pale_Flower"
   }),
   "Noire": new Unit({
     "name": "Noire",
@@ -2241,7 +2613,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Noire:_Shade_Seeker"
   }),
   "Nowi": new Unit({
     "name": "Nowi",
@@ -2253,7 +2627,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Nowi:_Eternal_Youth"
   }),
   "H-Nowi": new Unit({
     "name": "H-Nowi",
@@ -2265,7 +2641,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Nowi:_Eternal_Witch"
   }),
   "Oboro": new Unit({
     "name": "Oboro",
@@ -2277,7 +2655,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Oboro:_Fierce_Fighter"
   }),
   "Odin": new Unit({
     "name": "Odin",
@@ -2289,7 +2669,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Odin:_Potent_Force"
   }),
   "Ogma": new Unit({
     "name": "Ogma",
@@ -2301,7 +2683,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Ogma:_Loyal_Blade"
   }),
   "Oliver": new Unit({
     "name": "Oliver",
@@ -2313,7 +2697,9 @@ const units = {
     "maxMerge": 3,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Oliver:_Admirer_of_Beauty"
   }),
   "Olivia": new Unit({
     "name": "Olivia",
@@ -2325,7 +2711,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Olivia:_Blushing_Beauty"
   }),
   "PA-Olivia": new Unit({
     "name": "PA-Olivia",
@@ -2337,7 +2725,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Olivia:_Festival_Dancer"
   }),
   "F-Olivia": new Unit({
     "name": "F-Olivia",
@@ -2349,7 +2739,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Olivia:_Sky-High_Dancer"
   }),
   "Olwen": new Unit({
     "name": "Olwen",
@@ -2361,7 +2753,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Olwen:_Blue_Mage_Knight"
   }),
   "R-Olwen": new Unit({
     "name": "R-Olwen",
@@ -2373,7 +2767,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Olwen:_Righteous_Knight"
   }),
   "Oscar": new Unit({
     "name": "Oscar",
@@ -2385,7 +2781,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Oscar:_Agile_Horseman"
   }),
   "Palla": new Unit({
     "name": "Palla",
@@ -2397,7 +2795,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Palla:_Eldest_Whitewing"
   }),
   "Peri": new Unit({
     "name": "Peri",
@@ -2409,7 +2809,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Peri:_Playful_Slayer"
   }),
   "Priscilla": new Unit({
     "name": "Priscilla",
@@ -2421,7 +2823,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Priscilla:_Delicate_Princess"
   }),
   "Raigh": new Unit({
     "name": "Raigh",
@@ -2433,7 +2837,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Raigh:_Dark_Child"
   }),
   "Raven": new Unit({
     "name": "Raven",
@@ -2445,7 +2851,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Raven:_Peerless_Fighter"
   }),
   "Rebecca": new Unit({
     "name": "Rebecca",
@@ -2457,7 +2865,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Rebecca:_Wildflower"
   }),
   "Reinhardt": new Unit({
     "name": "Reinhardt",
@@ -2469,7 +2879,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Reinhardt:_Thunder%27s_Fist"
   }),
   "S-Reinhardt": new Unit({
     "name": "S-Reinhardt",
@@ -2481,7 +2893,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Reinhardt:_Thunder%27s_Sword"
   }),
   "Rhajat": new Unit({
     "name": "Rhajat",
@@ -2493,7 +2907,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Rhajat:_Black_Magician"
   }),
   "F-Grima": new Unit({
     "name": "F-Grima",
@@ -2505,7 +2921,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": true,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Robin:_Fell_Vessel"
   }),
   "M-Grima": new Unit({
     "name": "M-Grima",
@@ -2517,7 +2935,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Robin:_Fell_Reincarnation"
   }),
   "F-Robin": new Unit({
     "name": "F-Robin",
@@ -2529,7 +2949,9 @@ const units = {
     "maxMerge": 6,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Robin:_Mystery_Tactician"
   }),
   "M-Robin": new Unit({
     "name": "M-Robin",
@@ -2541,7 +2963,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Robin:_High_Deliverer"
   }),
   "SF-Robin": new Unit({
     "name": "SF-Robin",
@@ -2553,7 +2977,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Robin:_Seaside_Tactician"
   }),
   "NYM-Robin": new Unit({
     "name": "NYM-Robin",
@@ -2565,7 +2991,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Robin:_Festive_Tactician"
   }),
   "Roderick": new Unit({
     "name": "Roderick",
@@ -2577,7 +3005,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Roderick:_Steady_Squire"
   }),
   "Roy": new Unit({
     "name": "Roy",
@@ -2589,7 +3019,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Roy:_Young_Lion"
   }),
   "B-Roy": new Unit({
     "name": "B-Roy",
@@ -2601,7 +3033,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Roy:_Brave_Lion"
   }),
   "LA-Roy": new Unit({
     "name": "LA-Roy",
@@ -2613,7 +3047,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Roy:_Youthful_Gifts"
   }),
   "Ryoma": new Unit({
     "name": "Ryoma",
@@ -2625,7 +3061,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ryoma:_Peerless_Samurai"
   }),
   "L-Ryoma": new Unit({
     "name": "L-Ryoma",
@@ -2637,7 +3075,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": true,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ryoma:_Supreme_Samurai"
   }),
   "PA-Ryoma": new Unit({
     "name": "PA-Ryoma",
@@ -2649,7 +3089,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Ryoma:_Dancing_Samurai"
   }),
   "Saber": new Unit({
     "name": "Saber",
@@ -2661,7 +3103,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Saber:_Driven_Mercenary"
   }),
   "Saias": new Unit({
     "name": "Saias",
@@ -2673,7 +3117,9 @@ const units = {
     "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Saias:_Bishop_of_Flame"
   }),
   "Saizo": new Unit({
     "name": "Saizo",
@@ -2685,7 +3131,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Saizo:_Angry_Ninja"
   }),
   "Sakura": new Unit({
     "name": "Sakura",
@@ -2697,7 +3145,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Sakura:_Loving_Priestess"
   }),
   "H-Sakura": new Unit({
     "name": "H-Sakura",
@@ -2709,7 +3159,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Sakura:_Gentle_Nekomata"
   }),
   "Sanaki": new Unit({
     "name": "Sanaki",
@@ -2721,7 +3173,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Sanaki:_Begnion%27s_Apostle"
   }),
   "B-Sanaki": new Unit({
     "name": "B-Sanaki",
@@ -2733,7 +3187,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Sanaki:_Apostle_in_White"
   }),
   "Selena": new Unit({
     "name": "Selena",
@@ -2745,7 +3201,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Selena:_Cutting_Wit"
   }),
   "Seliph": new Unit({
     "name": "Seliph",
@@ -2757,7 +3215,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Seliph:_Heir_of_Light"
   }),
   "Serra": new Unit({
     "name": "Serra",
@@ -2769,7 +3229,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Serra:_Outspoken_Cleric"
   }),
   "Seth": new Unit({
     "name": "Seth",
@@ -2781,7 +3243,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Seth:_Silver_Knight"
   }),
   "Setsuna": new Unit({
     "name": "Setsuna",
@@ -2793,7 +3257,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Setsuna:_Absent_Archer"
   }),
   "Shanna": new Unit({
     "name": "Shanna",
@@ -2805,7 +3271,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Shanna:_Sprightly_Flier"
   }),
   "Sharena": new Unit({
     "name": "Sharena",
@@ -2817,7 +3285,9 @@ const units = {
     "maxMerge": 0,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Sharena:_Princess_of_Askr"
   }),
   "S-Sharena": new Unit({
     "name": "S-Sharena",
@@ -2829,7 +3299,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Sharena:_Spring_Princess"
   }),
   "Sheena": new Unit({
     "name": "Sheena",
@@ -2841,7 +3313,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Sheena:_Princess_of_Gra"
   }),
   "Shigure": new Unit({
     "name": "Shigure",
@@ -2853,7 +3327,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Shigure:_Dark_Sky_Singer"
   }),
   "PA-Shigure": new Unit({
     "name": "PA-Shigure",
@@ -2865,7 +3341,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Shigure:_Uplifting_Artist"
   }),
   "Shiro": new Unit({
     "name": "Shiro",
@@ -2877,7 +3355,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Shiro:_Raw_Talent"
   }),
   "Siegbert": new Unit({
     "name": "Siegbert",
@@ -2889,7 +3369,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Siegbert:_Future_King"
   }),
   "Sigurd": new Unit({
     "name": "Sigurd",
@@ -2901,7 +3383,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Sigurd:_Holy_Knight"
   }),
   "Soleil": new Unit({
     "name": "Soleil",
@@ -2913,7 +3397,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Soleil:_Adorable_Adorer"
   }),
   "Sonya": new Unit({
     "name": "Sonya",
@@ -2925,7 +3411,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Sonya:_Vengeful_Mage"
   }),
   "Sophia": new Unit({
     "name": "Sophia",
@@ -2937,7 +3425,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Sophia:_Nabata_Prophet"
   }),
   "Soren": new Unit({
     "name": "Soren",
@@ -2949,7 +3439,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Soren:_Shrewd_Strategist"
   }),
   "Sothe": new Unit({
     "name": "Sothe",
@@ -2961,7 +3453,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Sothe:_Zephyr"
   }),
   "Stahl": new Unit({
     "name": "Stahl",
@@ -2973,7 +3467,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Stahl:_Viridian_Knight"
   }),
   "Subaki": new Unit({
     "name": "Subaki",
@@ -2985,7 +3481,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Subaki:_Perfect_Expert"
   }),
   "Sully": new Unit({
     "name": "Sully",
@@ -2997,7 +3495,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Sully:_Crimson_Knight"
   }),
   "Sumia": new Unit({
     "name": "Sumia",
@@ -3009,7 +3509,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Sumia:_Maid_of_Flowers"
   }),
   "Tailtiu": new Unit({
     "name": "Tailtiu",
@@ -3021,7 +3523,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Tailtiu:_Thunder_Noble"
   }),
   "Takumi": new Unit({
     "name": "Takumi",
@@ -3033,7 +3537,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Takumi:_Wild_Card"
   }),
   "F-Takumi": new Unit({
     "name": "F-Takumi",
@@ -3045,7 +3551,9 @@ const units = {
     "maxMerge": 3,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Takumi:_Empty_Vessel"
   }),
   "NY-Takumi": new Unit({
     "name": "NY-Takumi",
@@ -3057,7 +3565,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Takumi:_Prince_of_Soup"
   }),
   "S-Takumi": new Unit({
     "name": "S-Takumi",
@@ -3069,7 +3579,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Takumi:_Prince_at_Play"
   }),
   "Tana": new Unit({
     "name": "Tana",
@@ -3081,7 +3593,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Tana:_Winged_Princess"
   }),
   "S-Tana": new Unit({
     "name": "S-Tana",
@@ -3093,7 +3607,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Tana:_Noble_and_Nimble"
   }),
   "Tharja": new Unit({
     "name": "Tharja",
@@ -3105,7 +3621,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Tharja:_Dark_Shadow"
   }),
   "B-Tharja": new Unit({
     "name": "B-Tharja",
@@ -3117,7 +3635,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Tharja:_Obsessive_Bride"
   }),
   "NY-Tharja": new Unit({
     "name": "NY-Tharja",
@@ -3129,7 +3649,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Tharja:_%22Normal_Girl%22"
   }),
   "A-Tiki": new Unit({
     "name": "A-Tiki",
@@ -3141,7 +3663,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Tiki:_Naga%27s_Voice"
   }),
   "Y-Tiki": new Unit({
     "name": "Y-Tiki",
@@ -3153,7 +3677,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Tiki:_Dragon_Scion"
   }),
   "SA-Tiki": new Unit({
     "name": "SA-Tiki",
@@ -3165,7 +3691,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Tiki:_Summering_Scion"
   }),
   "SY-Tiki": new Unit({
     "name": "SY-Tiki",
@@ -3177,7 +3705,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Tiki:_Beachside_Scion"
   }),
   "Titania": new Unit({
     "name": "Titania",
@@ -3189,7 +3719,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Titania:_Mighty_Mercenary"
   }),
   "Tobin": new Unit({
     "name": "Tobin",
@@ -3201,7 +3733,9 @@ const units = {
     "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Tobin:_The_Clueless_One"
   }),
   "Ursula": new Unit({
     "name": "Ursula",
@@ -3213,7 +3747,9 @@ const units = {
     "maxMerge": 5,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Ursula:_Blue_Crow"
   }),
   "Valter": new Unit({
     "name": "Valter",
@@ -3225,7 +3761,9 @@ const units = {
     "maxMerge": 4,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Valter:_Dark_Moonstone"
   }),
   "Virion": new Unit({
     "name": "Virion",
@@ -3237,7 +3775,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Virion:_Elite_Archer"
   }),
   "Walhart": new Unit({
     "name": "Walhart",
@@ -3249,7 +3789,9 @@ const units = {
     "maxMerge": 2,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Walhart:_The_Conqueror"
   }),
   "Wrys": new Unit({
     "name": "Wrys",
@@ -3261,7 +3803,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": false,
+    "link": "Wrys:_Kindly_Priest"
   }),
   "Xander": new Unit({
     "name": "Xander",
@@ -3273,7 +3817,9 @@ const units = {
     "maxMerge": 3,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Xander:_Paragon_Knight"
   }),
   "PA-Xander": new Unit({
     "name": "PA-Xander",
@@ -3285,7 +3831,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Xander:_Dancing_Knight"
   }),
   "S-Xander": new Unit({
     "name": "S-Xander",
@@ -3297,7 +3845,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Xander:_Spring_Prince"
   }),
   "SS-Xander": new Unit({
     "name": "SS-Xander",
@@ -3309,7 +3859,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": true,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Xander:_Student_Swimmer"
   }),
   "Zelgius": new Unit({
     "name": "Zelgius",
@@ -3321,7 +3873,9 @@ const units = {
     "maxMerge": 10,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": true
+    "only5Star": true,
+    "limited": false,
+    "link": "Zelgius:_Jet-Black_General"
   }),
   "Zephiel": new Unit({
     "name": "Zephiel",
@@ -3333,6 +3887,8 @@ const units = {
     "maxMerge": 5,
     "isLegendary": false,
     "seasonnal": false,
-    "only5Star": false
+    "only5Star": false,
+    "limited": true,
+    "link": "Zephiel:_The_Liberator"
   })
 }

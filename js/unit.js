@@ -10,6 +10,8 @@ class Unit {
         this.isLegendary = jsonData.isLegendary;
         this.seasonnal = jsonData.seasonnal;
         this.only5Star = jsonData.only5Star;
+        this.limited = jsonData.limited;
+        this.wikiLink = jsonData.link;
     }
 
     calculateScore (numberOfBlessing, withMerge, withSuperBoon) {
