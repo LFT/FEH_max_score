@@ -489,6 +489,20 @@ const units = {
     "limited": false,
     "link": "Celica:_Caring_Princess"
   }),
+  "BH-Celica": new Unit({
+    "name": "BH-Celica",
+    "moveType": "infantry",
+    "weaponType": "sword",
+    "bst": 163,
+    "hasSuperBoon": false,
+    "maxSp": 2280,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": false,
+    "only5Star": true,
+    "limited": false,
+    "link": "Celica:_Warrior_Priestess"
+  }),
   "FH-Celica": new Unit({
     "name": "FH-Celica",
     "moveType": "infantry",
@@ -837,7 +851,7 @@ const units = {
     "seasonnal": false,
     "only5Star": false,
     "limited": false,
-    "link": "Eirika:_Anamnesis_Lady"
+    "link": "Eirika:_Restoration_Lady"
   }),
   "F-Eirika": new Unit({
     "name": "F-Eirika",
@@ -851,7 +865,7 @@ const units = {
     "seasonnal": false,
     "only5Star": true,
     "limited": false,
-    "link": "Eirika:_Restoration_Lady"
+    "link": "Eirika:_Anamnesis_Lady"
   }),
   "Eldigan": new Unit({
     "name": "Eldigan",
@@ -964,6 +978,20 @@ const units = {
     "only5Star": true,
     "limited": false,
     "link": "Ephraim:_Restoration_Lord"
+  }),
+  "BH-Ephraim": new Unit({
+    "name": "BH-Ephraim",
+    "moveType": "armor",
+    "weaponType": "axe",
+    "bst": 174,
+    "hasSuperBoon": true,
+    "maxSp": 2220,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": false,
+    "only5Star": true,
+    "limited": false,
+    "link": "Ephraim:_Sacred_Twin_Lord"
   }),
   "L-Ephraim": new Unit({
     "name": "L-Ephraim",
@@ -1301,6 +1329,20 @@ const units = {
     "limited": false,
     "link": "Hector:_General_of_Ostia"
   }),
+  "BH-Hector": new Unit({
+    "name": "BH-Hector",
+    "moveType": "armor",
+    "weaponType": "lance",
+    "bst": 174,
+    "hasSuperBoon": true,
+    "maxSp": 2270,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": false,
+    "only5Star": true,
+    "limited": false,
+    "link": "Hector:_Brave_Warrior"
+  }),
   "LA-Hector": new Unit({
     "name": "LA-Hector",
     "moveType": "armor",
@@ -1413,8 +1455,8 @@ const units = {
     "limited": false,
     "link": "Ike:_Young_Mercenary"
   }),
-  "B-Ike": new Unit({
-    "name": "B-Ike",
+  "BH-Ike": new Unit({
+    "name": "BH-Ike",
     "moveType": "infantry",
     "weaponType": "axe",
     "bst": 162,
@@ -2029,8 +2071,8 @@ const units = {
     "limited": false,
     "link": "Lucina:_Future_Witness"
   }),
-  "B-Lucina": new Unit({
-    "name": "B-Lucina",
+  "BH-Lucina": new Unit({
+    "name": "BH-Lucina",
     "moveType": "infantry",
     "weaponType": "lance",
     "bst": 157,
@@ -3023,8 +3065,8 @@ const units = {
     "limited": false,
     "link": "Roy:_Young_Lion"
   }),
-  "B-Roy": new Unit({
-    "name": "B-Roy",
+  "BH-Roy": new Unit({
+    "name": "BH-Roy",
     "moveType": "cavalry",
     "weaponType": "sword",
     "bst": 154,
@@ -3764,6 +3806,20 @@ const units = {
     "only5Star": false,
     "limited": true,
     "link": "Valter:_Dark_Moonstone"
+  }),
+  "BH-Veronica": new Unit({
+    "name": "BH-Veronica",
+    "moveType": "cavalry",
+    "weaponType": "staff",
+    "bst": 144,
+    "hasSuperBoon": true,
+    "maxSp": 2020,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": false,
+    "only5Star": true,
+    "limited": false,
+    "link": "Veronica:_Brave_Princess"
   }),
   "Virion": new Unit({
     "name": "Virion",
