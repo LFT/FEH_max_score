@@ -7,7 +7,7 @@ const scores = {
     "star5" : true,
     "limited" : true,
     "bonus" : false,
-    "bonusUnits" : ["L-Lucina", "PA-Micaiah", "PA-Elincia", "PA-Ryoma", "PA-Xander", "F-Takumi", "Arvis", "Roderick", "Frederick", "Alfonse"],
+    "bonusUnits" : ["BH-Hector", "BH-Ephraim", "BH-Celica", "BH-Veronica", "Narcian","Gordin", "Palla", "R-Olwen", "Lute", "Sharena"],
     "includedMoveTypes" : ["infantry", "flier", "cavalry", "armor"],
     "columnList" : ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"],
     "scoreList" : [],

@@ -2337,6 +2337,20 @@ const units = {
     "limited": true,
     "link": "Marth:_Altean_Groom"
   }),
+  "L-Marth": new Unit({
+    "name": "L-Marth",
+    "moveType": "infantry",
+    "weaponType": "sword",
+    "bst": 163,
+    "hasSuperBoon": false,
+    "maxSp": 2280,
+    "maxMerge": 10,
+    "isLegendary": true,
+    "seasonnal": false,
+    "only5Star": true,
+    "limited": false,
+    "link": "Marth:_Hero-King"
+  }),
   "M-Marth": new Unit({
     "name": "M-Marth",
     "moveType": "infantry",
