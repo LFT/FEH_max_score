@@ -3,18 +3,19 @@ const scores = {
     "numberOfBlessing" : 0,
     "merge" : true,
     "boon" : true,
+    "duel" : true,
     "season" : true,
     "star5" : true,
     "limited" : true,
     "bonus" : false,
     "bonusUnits" : ["BH-Hector", "BH-Ephraim", "BH-Celica", "BH-Veronica", "Narcian","Gordin", "Palla", "R-Olwen", "Lute", "Sharena"],
     "includedMoveTypes" : ["infantry", "flier", "cavalry", "armor"],
-    "columnList" : ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"],
+    "columnList" : ["sword", "redBreath", "redBow", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"],
     "scoreList" : [],
     "unitScoreList" : {}
 };
 const weaponGroups = ["Clear all", "All", "Melee", "Ranged", "Physical", "Magical", "Red", "Blue", "Green", "Colorless"];
-const columnList = ["sword", "redBreath", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"];
+const columnList = ["sword", "redBreath", "redBow", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"];
 const moveTypes = ["infantry", "flier", "cavalry", "armor"];
 
 function generateScoreList() {
@@ -26,7 +27,7 @@ function generateScoreList() {
             (scores.limited || !realUnit.limited) &&
             scores.includedMoveTypes.indexOf(realUnit.moveType) > -1 &&
             (!scores.bonus || scores.bonusUnits.indexOf(unit) > -1)) {
-            let score = realUnit.calculateScore(scores.numberOfBlessing, scores.merge, scores.boon);
+            let score = realUnit.calculateScore(scores.numberOfBlessing, scores.merge, scores.boon, scores.duel);
             if (scores.scoreList.indexOf(score) === -1) {
                 scores.scoreList.push(score);
                 scores.unitScoreList[score] = {};
@@ -163,6 +164,7 @@ function handleUnits(evt) {
         case "star5":
         case "season" :
         case "boon" :
+        case "duel" :
         case "merge" :
         case "limited" :
         case "bonus" :

@@ -5,22 +5,37 @@ class Unit {
         this.weaponType = jsonData.weaponType;
         this.bst = jsonData.bst;
         this.hasSuperBoon = jsonData.hasSuperBoon;
-        this.maxSp = jsonData.maxSp;
         this.maxMerge = jsonData.maxMerge;
         this.isLegendary = jsonData.isLegendary;
         this.seasonnal = jsonData.seasonnal;
         this.only5Star = jsonData.only5Star;
         this.limited = jsonData.limited;
         this.wikiLink = jsonData.link;
+        this.weapon = jsonData.weapon;
+        this.assist = jsonData.assist;
+        this.special = jsonData.special;
+        this.a = jsonData.a;
+        this.b = jsonData.b;
+        this.c = jsonData.c;
+        this.seal= jsonData.seal;
     }
 
-    calculateScore (numberOfBlessing, withMerge, withSuperBoon) {
+    calculateScore (numberOfBlessing, withMerge, withSuperBoon, withDuel) {
         // base score  + rarity value + level value
         let score = 150 +  55 + 93;
         // adding bst
-        score += Math.floor((this.bst + (withSuperBoon && this.hasSuperBoon ? 1 : 0)) / 5)
+        let a = this.a;
+        let bst = this.bst;
+        if (withDuel && bst < 170 &&
+            (this.moveType === "infantry" && this.getColor() === "green" ||
+            this.moveType === "flier" && this.getColor() === "red")) {
+            bst = 170;
+            a = 300;
+        }
+        score += Math.floor((bst + (withSuperBoon && this.hasSuperBoon ? 1 : 0)) / 5);
         // adding sp
-        score += Math.floor(this.maxSp / 100)
+        let sp = this.weapon + this.assist + this.special + a + this.b + this.c + this.seal;
+        score += Math.floor(sp / 100);
         // adding merges
         if (withMerge) {
             score += 2 * this.maxMerge;
@@ -31,6 +46,32 @@ class Unit {
         }
         // Using a bonus unit.
         return score * 2;
+    }
+
+    getColor () {
+        // TODO : use the weapon type list?
+        switch (this.weaponType) {
+            case "sword":
+            case "redBreath":
+            case "redBow":
+            case "redTome":
+                return "red";
+            case "lance":
+            case "blueBreath":
+            case "blueBow":
+            case "blueTome":
+                return "blue";
+            case "axe":
+            case "greenBreath":
+            case "greenBow":
+            case "greenTome":
+                return "green";
+            case "breath":
+            case "bow":
+            case "dagger":
+            case "staff":
+                return "grey";
+        }
     }
 }
 

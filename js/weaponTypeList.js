@@ -1,5 +1,6 @@
 const weaponTypes = [new WeaponType("sword", "red", "melee", "physical"),
     new WeaponType("redBreath", "red", "melee", "magical"),
+    new WeaponType("redBow", "red", "ranged", "physical"),
     new WeaponType("redTome", "red", "ranged", "magical"),
     new WeaponType("lance", "blue", "melee", "physical"),
     new WeaponType("blueBreath", "blue", "melee", "magical"),
