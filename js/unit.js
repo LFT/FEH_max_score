@@ -27,7 +27,8 @@ class Unit {
         let a = this.a;
         let bst = this.bst;
         if (withDuel && bst < 170 &&
-            (this.moveType === "infantry" && this.getColor() === "green" ||
+            (this.moveType === "infantry" &&
+                (this.getColor() === "green" || this.getColor() === "grey") ||
             this.moveType === "flier" && this.getColor() === "red")) {
             bst = 170;
             a = 300;
