@@ -58,7 +58,7 @@ function add1x1Cell(grid, x, y, content, contentType, className) {
                 wikiLink.href = "https://feheroes.gamepedia.com/" + content[i].wikiLink;
                 wikiLink.target = "_blank";
                 let img = document.createElement("i");
-                img.className = "ib hero-icon icon-" + content[i].name;
+                img.className = content[i].getCssClass() + " ib icon-" + content[i].name;
                 wikiLink.appendChild(img);
                 cell.appendChild(wikiLink);
             }

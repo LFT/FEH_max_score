@@ -74,6 +74,20 @@ class Unit {
                 return "grey";
         }
     }
+
+    getCssClass () {
+        let cssClass;
+        if (this.seasonnal || this.isLegendary) {
+            cssClass = "seasonal-";
+        } else if (this.limited) {
+            cssClass = "limited-";
+        } else if (this.only5Star) {
+            cssClass = "star-";
+        } else {
+            cssClass = "";
+        }
+        return cssClass + "hero-icon";
+    }
 }
 
 
