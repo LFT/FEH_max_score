@@ -4,6 +4,7 @@ const scores = {
     "merge" : true,
     "boon" : true,
     "duel" : true,
+    "dance" : true,
     "season" : true,
     "star5" : true,
     "limited" : true,
@@ -29,7 +30,7 @@ function generateScoreList() {
             (scores.legendary || !realUnit.isLegendary) &&
             scores.includedMoveTypes.indexOf(realUnit.moveType) > -1 &&
             (!scores.bonus || scores.bonusUnits.indexOf(unit) > -1)) {
-            let score = realUnit.calculateScore(scores.numberOfBlessing, scores.merge, scores.boon, scores.duel);
+            let score = realUnit.calculateScore(scores.numberOfBlessing, scores.merge, scores.boon, scores.duel, scores.dance);
             if (scores.scoreList.indexOf(score) === -1) {
                 scores.scoreList.push(score);
                 scores.unitScoreList[score] = {};
@@ -167,6 +168,7 @@ function handleUnits(evt) {
         case "season" :
         case "boon" :
         case "duel" :
+        case "dance" :
         case "merge" :
         case "limited" :
         case "legendary" :

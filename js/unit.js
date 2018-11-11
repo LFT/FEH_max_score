@@ -9,6 +9,7 @@ class Unit {
         this.isLegendary = jsonData.isLegendary;
         this.seasonnal = jsonData.seasonnal;
         this.only5Star = jsonData.only5Star;
+        this.isDancer = jsonData.isDancer
         this.limited = jsonData.limited;
         this.wikiLink = jsonData.link;
         this.weapon = jsonData.weapon;
@@ -20,7 +21,7 @@ class Unit {
         this.seal= jsonData.seal;
     }
 
-    calculateScore (numberOfBlessing, withMerge, withSuperBoon, withDuel) {
+    calculateScore (numberOfBlessing, withMerge, withSuperBoon, withDuel, withDance) {
         // base score  + rarity value + level value
         let score = 150 +  55 + 93;
         // adding bst
@@ -33,9 +34,13 @@ class Unit {
             bst = 170;
             a = 300;
         }
+        let assist = this.assist;
+        if (withDance && this.isDancer) {
+            assist = 150;
+        }
         score += Math.floor((bst + (withSuperBoon && this.hasSuperBoon ? 1 : 0)) / 5);
         // adding sp
-        let sp = this.weapon + this.assist + this.special + a + this.b + this.c + this.seal;
+        let sp = this.weapon + assist + this.special + a + this.b + this.c + this.seal;
         score += Math.floor(sp / 100);
         // adding merges
         if (withMerge) {
