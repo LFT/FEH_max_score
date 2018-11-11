@@ -2064,7 +2064,7 @@ const units = {
     "bst": 145,
     "hasSuperBoon": true,
     "maxMerge": 10,
-    "isLegendary": false,
+    "isLegendary": true,
     "seasonnal": false,
     "only5Star": true,
     "limited": false,
