@@ -6,9 +6,10 @@ const scores = {
     "duel" : true,
     "season" : true,
     "star5" : true,
-    "limited" : false,
+    "limited" : true,
+    "legendary" : true,
     "bonus" : false,
-    "bonusUnits" : ["Kliff", "Loki", "Aversa", "Owain", "M-Kana", "Camus", "Jeorge", "Luke", "Hawkeye", "Sharena"],
+    "bonusUnits" : ["L-Eirika", "AM-Corrin", "AF-Corrin", "A-Camilla", "A-Mikoto", "A-Azura", "Julius", "F-Robin", "Gwendolyn", "Anna"],
     "includedMoveTypes" : ["infantry", "flier", "cavalry", "armor"],
     "columnList" : ["sword", "redBreath", "redBow", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"],
     "scoreList" : [],
@@ -25,6 +26,7 @@ function generateScoreList() {
         if ((scores.star5 || !realUnit.only5Star) &&
             (scores.season || !realUnit.seasonnal) &&
             (scores.limited || !realUnit.limited) &&
+            (scores.legendary || !realUnit.isLegendary) &&
             scores.includedMoveTypes.indexOf(realUnit.moveType) > -1 &&
             (!scores.bonus || scores.bonusUnits.indexOf(unit) > -1)) {
             let score = realUnit.calculateScore(scores.numberOfBlessing, scores.merge, scores.boon, scores.duel);
@@ -167,6 +169,7 @@ function handleUnits(evt) {
         case "duel" :
         case "merge" :
         case "limited" :
+        case "legendary" :
         case "bonus" :
             scores[evt.target.name] = evt.target.checked;
         break;

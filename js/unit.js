@@ -77,8 +77,10 @@ class Unit {
 
     getCssClass () {
         let cssClass;
-        if (this.seasonnal || this.isLegendary) {
+        if (this.seasonnal) {
             cssClass = "seasonal-";
+        } else if (this.isLegendary) {
+            cssClass = "legendary-";
         } else if (this.limited) {
             cssClass = "limited-";
         } else if (this.only5Star) {
