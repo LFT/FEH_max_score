@@ -3,7 +3,7 @@
   background-image: url('../images/star-sprite.png');
 }
 
-.icon-K-Chrom {
+.icon-Kliff {
   background-position: -0px -0px;
   width: 83px;
   height: 83px;
@@ -223,12 +223,12 @@
   width: 83px;
   height: 83px;
 }
-.icon-AF-Corrin {
+.icon-K-Chrom {
   background-position: -0px -3652px;
   width: 83px;
   height: 83px;
 }
-.icon-Kliff {
+.icon-AF-Corrin {
   background-position: -0px -3735px;
   width: 83px;
   height: 83px;
@@ -423,23 +423,33 @@
   width: 83px;
   height: 83px;
 }
-.icon-Takumi {
+.icon-Surtr {
   background-position: -0px -6972px;
   width: 83px;
   height: 83px;
 }
-.icon-Tana {
+.icon-Takumi {
   background-position: -0px -7055px;
   width: 83px;
   height: 83px;
 }
-.icon-Y-Tiki {
+.icon-Tana {
   background-position: -0px -7138px;
   width: 83px;
   height: 83px;
 }
-.icon-Zelgius {
+.icon-Ylgr {
   background-position: -0px -7221px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Y-Tiki {
+  background-position: -0px -7304px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Zelgius {
+  background-position: -0px -7387px;
   width: 83px;
   height: 83px;
 }
