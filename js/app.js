@@ -10,7 +10,7 @@ const scores = {
     "limited" : true,
     "legendary" : true,
     "bonus" : false,
-    "bonusUnits" : ["L-Eirika", "AM-Corrin", "AF-Corrin", "A-Camilla", "A-Mikoto", "A-Azura", "Julius", "F-Robin", "Gwendolyn", "Anna"],
+    "bonusUnits" : ["Hrid", "Surtr", "Laegjarn", "Laevatein", "Helbindi", "Ylgr", "Gharnef", "Xander", "Mist", "Fjorm"],
     "includedMoveTypes" : ["infantry", "flier", "cavalry", "armor"],
     "columnList" : ["sword", "redBreath", "redBow", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"],
     "scoreList" : [],

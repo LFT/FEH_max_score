@@ -2414,6 +2414,27 @@ const units = {
     "c": 240,
     "seal": 240
   }),
+  "Hrid": new Unit({
+    "name": "Hrid",
+    "moveType": "cavalry",
+    "weaponType": "sword",
+    "bst": 157,
+    "hasSuperBoon": true,
+    "maxMerge": 10,
+    "isLegendary": true,
+    "seasonnal": false,
+    "only5Star": true,
+    "limited": false,
+    "isDancer": false,
+    "link": "Hríd:_Icy_Blade",
+    "weapon": 400,
+    "assist": 400,
+    "special": 500,
+    "a": 300,
+    "b": 400,
+    "c": 240,
+    "seal": 240
+  }),
   "Ike": new Unit({
     "name": "Ike",
     "moveType": "infantry",
