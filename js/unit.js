@@ -30,7 +30,8 @@ class Unit {
         if (withDuel && bst < 170 &&
             (this.moveType === "infantry" &&
                 (this.getColor() === "green" || this.getColor() === "grey") ||
-            this.moveType === "flier" && this.getColor() === "red")) {
+            this.moveType === "flier" &&
+                (this.getColor() === "red" || this.getColor() === "blue"))) {
             bst = 170;
             a = 300;
         }

@@ -3,7 +3,7 @@
   background-image: url('../images/seasonal-sprite.png');
 }
 
-.icon-NY-Tharja {
+.icon-NYM-Robin {
   background-position: -0px -0px;
   width: 83px;
   height: 83px;
@@ -138,173 +138,193 @@
   width: 83px;
   height: 83px;
 }
-.icon-NY-Lissa {
+.icon-NY-Fjorm {
   background-position: -0px -2241px;
   width: 83px;
   height: 83px;
 }
-.icon-NYM-Robin {
+.icon-NY-Gunnthra {
   background-position: -0px -2324px;
   width: 83px;
   height: 83px;
 }
-.icon-NY-Takumi {
+.icon-NY-Hrid {
   background-position: -0px -2407px;
   width: 83px;
   height: 83px;
 }
-.icon-B-Charlotte {
+.icon-NY-Laevatein {
   background-position: -0px -2490px;
   width: 83px;
   height: 83px;
 }
-.icon-PA-Azura {
+.icon-NY-Lissa {
   background-position: -0px -2573px;
   width: 83px;
   height: 83px;
 }
-.icon-PA-Elincia {
+.icon-B-Charlotte {
   background-position: -0px -2656px;
   width: 83px;
   height: 83px;
 }
-.icon-PA-Inigo {
+.icon-NY-Takumi {
   background-position: -0px -2739px;
   width: 83px;
   height: 83px;
 }
-.icon-PA-Micaiah {
+.icon-NY-Tharja {
   background-position: -0px -2822px;
   width: 83px;
   height: 83px;
 }
-.icon-PA-Olivia {
+.icon-PA-Azura {
   background-position: -0px -2905px;
   width: 83px;
   height: 83px;
 }
-.icon-PA-Ryoma {
+.icon-PA-Elincia {
   background-position: -0px -2988px;
   width: 83px;
   height: 83px;
 }
-.icon-PA-Shigure {
+.icon-PA-Inigo {
   background-position: -0px -3071px;
   width: 83px;
   height: 83px;
 }
-.icon-PA-Xander {
+.icon-PA-Micaiah {
   background-position: -0px -3154px;
   width: 83px;
   height: 83px;
 }
-.icon-SA-Tiki {
+.icon-PA-Olivia {
   background-position: -0px -3237px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Camilla {
+.icon-PA-Ryoma {
   background-position: -0px -3320px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Catria {
+.icon-PA-Shigure {
   background-position: -0px -3403px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Chrom {
+.icon-PA-Xander {
   background-position: -0px -3486px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Cordelia {
+.icon-SA-Tiki {
   background-position: -0px -3569px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Corrin {
+.icon-S-Camilla {
   background-position: -0px -3652px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Elise {
+.icon-S-Catria {
   background-position: -0px -3735px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Frederick {
+.icon-S-Chrom {
   background-position: -0px -3818px;
   width: 83px;
   height: 83px;
 }
-.icon-SF-Robin {
+.icon-S-Cordelia {
   background-position: -0px -3901px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Gaius {
+.icon-S-Corrin {
   background-position: -0px -3984px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Innes {
+.icon-S-Elise {
   background-position: -0px -4067px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Kagero {
+.icon-S-Frederick {
   background-position: -0px -4150px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Leo {
+.icon-SF-Robin {
   background-position: -0px -4233px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Linde {
+.icon-S-Gaius {
   background-position: -0px -4316px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Lucina {
+.icon-S-Innes {
   background-position: -0px -4399px;
   width: 83px;
   height: 83px;
 }
-.icon-SS-Camilla {
+.icon-S-Kagero {
   background-position: -0px -4482px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Sharena {
+.icon-S-Leo {
   background-position: -0px -4565px;
   width: 83px;
   height: 83px;
 }
-.icon-SS-Xander {
+.icon-S-Linde {
   background-position: -0px -4648px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Takumi {
+.icon-S-Lucina {
   background-position: -0px -4731px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Tana {
+.icon-SS-Camilla {
   background-position: -0px -4814px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Xander {
+.icon-S-Sharena {
   background-position: -0px -4897px;
   width: 83px;
   height: 83px;
 }
-.icon-SY-Tiki {
+.icon-SS-Xander {
   background-position: -0px -4980px;
+  width: 83px;
+  height: 83px;
+}
+.icon-S-Takumi {
+  background-position: -0px -5063px;
+  width: 83px;
+  height: 83px;
+}
+.icon-S-Tana {
+  background-position: -0px -5146px;
+  width: 83px;
+  height: 83px;
+}
+.icon-S-Xander {
+  background-position: -0px -5229px;
+  width: 83px;
+  height: 83px;
+}
+.icon-SY-Tiki {
+  background-position: -0px -5312px;
   width: 83px;
   height: 83px;
 }

@@ -17,7 +17,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Alfonse": new Unit({
@@ -38,7 +38,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "HF-Alfonse": new Unit({
@@ -59,7 +59,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Alm": new Unit({
@@ -80,7 +80,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Amelia": new Unit({
@@ -101,7 +101,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Anna": new Unit({
@@ -122,7 +122,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Arden": new Unit({
@@ -143,7 +143,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ares": new Unit({
@@ -164,7 +164,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Arthur": new Unit({
@@ -185,7 +185,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Arvis": new Unit({
@@ -206,7 +206,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Athena": new Unit({
@@ -227,7 +227,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Aversa": new Unit({
@@ -248,7 +248,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ayra": new Unit({
@@ -269,7 +269,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Azama": new Unit({
@@ -290,7 +290,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Azura": new Unit({
@@ -311,7 +311,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "A-Azura": new Unit({
@@ -332,7 +332,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Azura": new Unit({
@@ -353,7 +353,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "PA-Azura": new Unit({
@@ -374,7 +374,28 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
+    "seal": 240
+  }),
+  "L-Azura": new Unit({
+    "name": "L-Azura",
+    "moveType": "flier",
+    "weaponType": "blueTome",
+    "bst": 139,
+    "hasSuperBoon": true,
+    "maxMerge": 10,
+    "isLegendary": true,
+    "seasonnal": false,
+    "only5Star": true,
+    "limited": false,
+    "isDancer": false,
+    "link": "Azura:_Vallite_Songstress",
+    "weapon": 400,
+    "assist": 400,
+    "special": 500,
+    "a": 300,
+    "b": 240,
+    "c": 300,
     "seal": 240
   }),
   "Barst": new Unit({
@@ -395,7 +416,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Bartre": new Unit({
@@ -416,7 +437,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Berkut": new Unit({
@@ -437,7 +458,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Beruka": new Unit({
@@ -458,7 +479,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Black-Knight": new Unit({
@@ -479,7 +500,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Boey": new Unit({
@@ -500,7 +521,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Caeda": new Unit({
@@ -521,7 +542,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "B-Caeda": new Unit({
@@ -542,7 +563,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Cain": new Unit({
@@ -563,7 +584,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Camilla": new Unit({
@@ -584,7 +605,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "A-Camilla": new Unit({
@@ -605,7 +626,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Camilla": new Unit({
@@ -626,7 +647,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Camilla": new Unit({
@@ -647,7 +668,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "SS-Camilla": new Unit({
@@ -668,7 +689,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Camus": new Unit({
@@ -689,7 +710,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Canas": new Unit({
@@ -710,7 +731,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Catria": new Unit({
@@ -731,7 +752,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Catria": new Unit({
@@ -752,7 +773,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Cecilia": new Unit({
@@ -773,7 +794,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Cecilia": new Unit({
@@ -794,7 +815,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Celica": new Unit({
@@ -815,7 +836,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "BH-Celica": new Unit({
@@ -836,7 +857,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "FH-Celica": new Unit({
@@ -857,7 +878,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "B-Charlotte": new Unit({
@@ -878,7 +899,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Cherche": new Unit({
@@ -899,7 +920,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Chrom": new Unit({
@@ -920,7 +941,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Chrom": new Unit({
@@ -941,7 +962,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "K-Chrom": new Unit({
@@ -962,7 +983,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Chrom": new Unit({
@@ -983,7 +1004,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Clair": new Unit({
@@ -1004,7 +1025,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Clarine": new Unit({
@@ -1025,7 +1046,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Clarisse": new Unit({
@@ -1046,7 +1067,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Clive": new Unit({
@@ -1067,7 +1088,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Cordelia": new Unit({
@@ -1088,7 +1109,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Cordelia": new Unit({
@@ -1109,7 +1130,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "B-Cordelia": new Unit({
@@ -1130,7 +1151,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "F-Corrin": new Unit({
@@ -1151,7 +1172,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "M-Corrin": new Unit({
@@ -1172,7 +1193,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Corrin": new Unit({
@@ -1193,7 +1214,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Corrin": new Unit({
@@ -1214,7 +1235,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "AF-Corrin": new Unit({
@@ -1235,7 +1256,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "AM-Corrin": new Unit({
@@ -1256,7 +1277,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Deirdre": new Unit({
@@ -1277,7 +1298,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Delthea": new Unit({
@@ -1298,7 +1319,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Donnel": new Unit({
@@ -1319,7 +1340,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Dorcas": new Unit({
@@ -1340,7 +1361,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "H-Dorcas": new Unit({
@@ -1361,7 +1382,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Draug": new Unit({
@@ -1382,7 +1403,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Effie": new Unit({
@@ -1403,7 +1424,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Eir": new Unit({
@@ -1445,7 +1466,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "F-Eirika": new Unit({
@@ -1466,7 +1487,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "L-Eirika": new Unit({
@@ -1487,7 +1508,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Eirika": new Unit({
@@ -1508,7 +1529,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Eldigan": new Unit({
@@ -1529,7 +1550,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Elincia": new Unit({
@@ -1550,7 +1571,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "PA-Elincia": new Unit({
@@ -1571,7 +1592,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Elise": new Unit({
@@ -1592,7 +1613,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Elise": new Unit({
@@ -1613,7 +1634,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "LA-Eliwood": new Unit({
@@ -1634,7 +1655,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Eliwood": new Unit({
@@ -1655,7 +1676,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ephraim": new Unit({
@@ -1676,7 +1697,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "BH-Ephraim": new Unit({
@@ -1697,7 +1718,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "L-Ephraim": new Unit({
@@ -1718,7 +1739,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Ephraim": new Unit({
@@ -1739,7 +1760,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Est": new Unit({
@@ -1760,7 +1781,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ethlyn": new Unit({
@@ -1781,7 +1802,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Fae": new Unit({
@@ -1802,7 +1823,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Fae": new Unit({
@@ -1823,7 +1844,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Faye": new Unit({
@@ -1844,7 +1865,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Felicia": new Unit({
@@ -1865,7 +1886,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Finn": new Unit({
@@ -1886,7 +1907,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Fir": new Unit({
@@ -1907,7 +1928,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Fjorm": new Unit({
@@ -1928,7 +1949,28 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
+    "seal": 240
+  }),
+  "NY-Fjorm": new Unit({
+    "name": "NY-Fjorm",
+    "moveType": "flier",
+    "weaponType": "greenBow",
+    "bst": 150,
+    "hasSuperBoon": false,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": true,
+    "only5Star": true,
+    "limited": false,
+    "isDancer": false,
+    "link": "Fjorm:_New_Traditions",
+    "weapon": 350,
+    "assist": 400,
+    "special": 500,
+    "a": 300,
+    "b": 240,
+    "c": 300,
     "seal": 240
   }),
   "Flora": new Unit({
@@ -1949,7 +1991,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Florina": new Unit({
@@ -1970,7 +2012,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Frederick": new Unit({
@@ -1991,7 +2033,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Frederick": new Unit({
@@ -2012,7 +2054,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Gaius": new Unit({
@@ -2033,7 +2075,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Gaius": new Unit({
@@ -2054,7 +2096,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Garon": new Unit({
@@ -2075,7 +2117,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Genny": new Unit({
@@ -2096,7 +2138,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Gerome": new Unit({
@@ -2117,7 +2159,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Gharnef": new Unit({
@@ -2138,7 +2180,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Gordin": new Unit({
@@ -2159,7 +2201,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Gray": new Unit({
@@ -2180,7 +2222,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Gunnthra": new Unit({
@@ -2201,7 +2243,28 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
+    "seal": 240
+  }),
+  "NY-Gunnthra": new Unit({
+    "name": "NY-Gunnthra",
+    "moveType": "flier",
+    "weaponType": "sword",
+    "bst": 162,
+    "hasSuperBoon": true,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": true,
+    "only5Star": true,
+    "limited": false,
+    "isDancer": false,
+    "link": "Gunnthrá:_Year's_First_Dream",
+    "weapon": 400,
+    "assist": 400,
+    "special": 500,
+    "a": 300,
+    "b": 240,
+    "c": 300,
     "seal": 240
   }),
   "Gunter": new Unit({
@@ -2222,7 +2285,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Gwendolyn": new Unit({
@@ -2243,7 +2306,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Hana": new Unit({
@@ -2264,7 +2327,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Hardin": new Unit({
@@ -2285,7 +2348,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Hawkeye": new Unit({
@@ -2306,7 +2369,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Hector": new Unit({
@@ -2327,7 +2390,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "BH-Hector": new Unit({
@@ -2348,7 +2411,7 @@ const units = {
     "special": 500,
     "a": 350,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "LA-Hector": new Unit({
@@ -2369,7 +2432,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "L-Hector": new Unit({
@@ -2411,7 +2474,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Henry": new Unit({
@@ -2432,7 +2495,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "H-Henry": new Unit({
@@ -2453,7 +2516,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Hinata": new Unit({
@@ -2474,7 +2537,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Hinoka": new Unit({
@@ -2495,7 +2558,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "BSW-Hinoka": new Unit({
@@ -2516,7 +2579,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Hrid": new Unit({
@@ -2537,7 +2600,28 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 400,
-    "c": 240,
+    "c": 300,
+    "seal": 240
+  }),
+  "NY-Hrid": new Unit({
+    "name": "NY-Hrid",
+    "moveType": "flier",
+    "weaponType": "sword",
+    "bst": 162,
+    "hasSuperBoon": false,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": true,
+    "only5Star": true,
+    "limited": false,
+    "isDancer": false,
+    "link": "Hríd:_Resolute_Prince",
+    "weapon": 350,
+    "assist": 400,
+    "special": 500,
+    "a": 300,
+    "b": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ike": new Unit({
@@ -2558,7 +2642,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "BH-Ike": new Unit({
@@ -2579,7 +2663,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "L-Ike": new Unit({
@@ -2600,7 +2684,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "PA-Inigo": new Unit({
@@ -2621,7 +2705,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Innes": new Unit({
@@ -2642,7 +2726,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Innes": new Unit({
@@ -2663,7 +2747,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ishtar": new Unit({
@@ -2684,7 +2768,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Jaffar": new Unit({
@@ -2705,7 +2789,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Jagen": new Unit({
@@ -2726,7 +2810,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Jakob": new Unit({
@@ -2747,7 +2831,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "H-Jakob": new Unit({
@@ -2768,7 +2852,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Jamke": new Unit({
@@ -2789,7 +2873,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Jeorge": new Unit({
@@ -2810,7 +2894,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Joshua": new Unit({
@@ -2831,7 +2915,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Julia": new Unit({
@@ -2852,7 +2936,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Julius": new Unit({
@@ -2873,7 +2957,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Kagero": new Unit({
@@ -2894,7 +2978,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "H-Kagero": new Unit({
@@ -2915,7 +2999,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Kagero": new Unit({
@@ -2936,7 +3020,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "F-Kana": new Unit({
@@ -2957,7 +3041,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "M-Kana": new Unit({
@@ -2978,7 +3062,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Karel": new Unit({
@@ -2999,7 +3083,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Karla": new Unit({
@@ -3020,7 +3104,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Katarina": new Unit({
@@ -3041,7 +3125,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Kaze": new Unit({
@@ -3062,7 +3146,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Klein": new Unit({
@@ -3083,7 +3167,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Kliff": new Unit({
@@ -3104,7 +3188,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "L-Arachel": new Unit({
@@ -3125,7 +3209,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lachesis": new Unit({
@@ -3146,7 +3230,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Laegjarn": new Unit({
@@ -3167,7 +3251,28 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
+    "seal": 240
+  }),
+  "NY-Laegjarn": new Unit({
+    "name": "NY-Laegjarn",
+    "moveType": "cavalry",
+    "weaponType": "lance",
+    "bst": 157,
+    "hasSuperBoon": false,
+    "maxMerge": 1,
+    "isLegendary": false,
+    "seasonnal": false,
+    "only5Star": false,
+    "limited": true,
+    "isDancer": false,
+    "link": "Laegjarn:_New_Experiences",
+    "weapon": 350,
+    "assist": 400,
+    "special": 500,
+    "a": 300,
+    "b": 240,
+    "c": 300,
     "seal": 240
   }),
   "Laevatein": new Unit({
@@ -3188,7 +3293,28 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
+    "seal": 240
+  }),
+  "NY-Laevatein": new Unit({
+    "name": "NY-Laevatein",
+    "moveType": "cavalry",
+    "weaponType": "staff",
+    "bst": 144,
+    "hasSuperBoon": true,
+    "maxMerge": 10,
+    "isLegendary": false,
+    "seasonnal": true,
+    "only5Star": true,
+    "limited": false,
+    "isDancer": false,
+    "link": "Laevatein:_Kumade_Warrior",
+    "weapon": 350,
+    "assist": 300,
+    "special": 300,
+    "a": 300,
+    "b": 240,
+    "c": 300,
     "seal": 240
   }),
   "Laslow": new Unit({
@@ -3209,7 +3335,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Legault": new Unit({
@@ -3230,7 +3356,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Legion": new Unit({
@@ -3251,7 +3377,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Leif": new Unit({
@@ -3272,7 +3398,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lene": new Unit({
@@ -3293,7 +3419,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Leo": new Unit({
@@ -3314,7 +3440,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Leo": new Unit({
@@ -3335,7 +3461,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Leon": new Unit({
@@ -3356,7 +3482,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lewyn": new Unit({
@@ -3377,7 +3503,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Libra": new Unit({
@@ -3398,7 +3524,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lilina": new Unit({
@@ -3419,7 +3545,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "LA-Lilina": new Unit({
@@ -3440,7 +3566,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Linde": new Unit({
@@ -3461,7 +3587,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Linde": new Unit({
@@ -3482,7 +3608,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Linus": new Unit({
@@ -3503,7 +3629,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lissa": new Unit({
@@ -3524,7 +3650,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Lissa": new Unit({
@@ -3545,7 +3671,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lloyd": new Unit({
@@ -3566,7 +3692,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Loki": new Unit({
@@ -3587,7 +3713,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lon-qu": new Unit({
@@ -3608,7 +3734,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lucina": new Unit({
@@ -3629,7 +3755,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "BH-Lucina": new Unit({
@@ -3650,7 +3776,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "L-Lucina": new Unit({
@@ -3671,7 +3797,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Lucina": new Unit({
@@ -3692,7 +3818,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lucius": new Unit({
@@ -3713,7 +3839,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lukas": new Unit({
@@ -3734,7 +3860,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Luke": new Unit({
@@ -3755,7 +3881,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lute": new Unit({
@@ -3776,7 +3902,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lyn": new Unit({
@@ -3797,7 +3923,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "B-Lyn": new Unit({
@@ -3818,7 +3944,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "BH-Lyn": new Unit({
@@ -3839,7 +3965,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "L-Lyn": new Unit({
@@ -3860,7 +3986,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "LA-Lyn": new Unit({
@@ -3881,7 +4007,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Lyon": new Unit({
@@ -3902,7 +4028,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Mae": new Unit({
@@ -3923,7 +4049,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Maria": new Unit({
@@ -3944,7 +4070,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Maribelle": new Unit({
@@ -3965,7 +4091,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Marisa": new Unit({
@@ -3986,7 +4112,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Marth": new Unit({
@@ -4007,7 +4133,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "B-Marth": new Unit({
@@ -4028,7 +4154,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "L-Marth": new Unit({
@@ -4049,7 +4175,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "M-Marth": new Unit({
@@ -4070,7 +4196,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Mathilda": new Unit({
@@ -4091,7 +4217,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Matthew": new Unit({
@@ -4112,7 +4238,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Merric": new Unit({
@@ -4133,7 +4259,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Mia": new Unit({
@@ -4154,7 +4280,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "H-Mia": new Unit({
@@ -4175,7 +4301,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Micaiah": new Unit({
@@ -4196,7 +4322,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "PA-Micaiah": new Unit({
@@ -4217,7 +4343,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Michalis": new Unit({
@@ -4238,7 +4364,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "A-Mikoto": new Unit({
@@ -4259,7 +4385,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Minerva": new Unit({
@@ -4280,7 +4406,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Mist": new Unit({
@@ -4301,7 +4427,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "F-Morgan": new Unit({
@@ -4322,7 +4448,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "M-Morgan": new Unit({
@@ -4343,7 +4469,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Myrrh": new Unit({
@@ -4364,7 +4490,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "H-Myrrh": new Unit({
@@ -4385,7 +4511,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Nanna": new Unit({
@@ -4406,7 +4532,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Narcian": new Unit({
@@ -4427,7 +4553,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Navarre": new Unit({
@@ -4448,7 +4574,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Nephenee": new Unit({
@@ -4469,7 +4595,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Niles": new Unit({
@@ -4490,7 +4616,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "H-Niles": new Unit({
@@ -4511,7 +4637,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Nina": new Unit({
@@ -4532,7 +4658,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ninian": new Unit({
@@ -4553,7 +4679,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "B-Ninian": new Unit({
@@ -4574,7 +4700,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Nino": new Unit({
@@ -4595,7 +4721,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "P-Nino": new Unit({
@@ -4616,7 +4742,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Noire": new Unit({
@@ -4637,7 +4763,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Nowi": new Unit({
@@ -4658,7 +4784,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "H-Nowi": new Unit({
@@ -4679,7 +4805,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Oboro": new Unit({
@@ -4700,7 +4826,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Odin": new Unit({
@@ -4721,7 +4847,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ogma": new Unit({
@@ -4742,7 +4868,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Oliver": new Unit({
@@ -4763,7 +4889,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Olivia": new Unit({
@@ -4784,7 +4910,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "PA-Olivia": new Unit({
@@ -4805,7 +4931,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "F-Olivia": new Unit({
@@ -4826,7 +4952,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Olwen": new Unit({
@@ -4847,7 +4973,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "R-Olwen": new Unit({
@@ -4868,7 +4994,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ophelia": new Unit({
@@ -4889,7 +5015,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Oscar": new Unit({
@@ -4910,7 +5036,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Owain": new Unit({
@@ -4931,7 +5057,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Palla": new Unit({
@@ -4952,7 +5078,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Peri": new Unit({
@@ -4973,7 +5099,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Priscilla": new Unit({
@@ -4994,7 +5120,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Quan": new Unit({
@@ -5015,7 +5141,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Raigh": new Unit({
@@ -5036,7 +5162,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Raven": new Unit({
@@ -5057,7 +5183,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Rebecca": new Unit({
@@ -5078,7 +5204,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Reinhardt": new Unit({
@@ -5099,7 +5225,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Reinhardt": new Unit({
@@ -5120,7 +5246,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Rhajat": new Unit({
@@ -5141,7 +5267,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "F-Grima": new Unit({
@@ -5162,7 +5288,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "M-Grima": new Unit({
@@ -5183,7 +5309,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "F-Robin": new Unit({
@@ -5204,7 +5330,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "M-Robin": new Unit({
@@ -5225,7 +5351,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "SF-Robin": new Unit({
@@ -5246,7 +5372,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NYM-Robin": new Unit({
@@ -5267,7 +5393,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Roderick": new Unit({
@@ -5288,7 +5414,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Roy": new Unit({
@@ -5309,7 +5435,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "BH-Roy": new Unit({
@@ -5330,7 +5456,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "LA-Roy": new Unit({
@@ -5351,7 +5477,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ryoma": new Unit({
@@ -5372,7 +5498,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "L-Ryoma": new Unit({
@@ -5393,7 +5519,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "PA-Ryoma": new Unit({
@@ -5414,7 +5540,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Saber": new Unit({
@@ -5435,7 +5561,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Saias": new Unit({
@@ -5456,7 +5582,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Saizo": new Unit({
@@ -5477,7 +5603,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Sakura": new Unit({
@@ -5498,7 +5624,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "H-Sakura": new Unit({
@@ -5519,7 +5645,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Sanaki": new Unit({
@@ -5540,7 +5666,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "B-Sanaki": new Unit({
@@ -5561,7 +5687,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Selena": new Unit({
@@ -5582,7 +5708,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Seliph": new Unit({
@@ -5603,7 +5729,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Serra": new Unit({
@@ -5624,7 +5750,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Seth": new Unit({
@@ -5645,7 +5771,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Setsuna": new Unit({
@@ -5666,7 +5792,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Shanna": new Unit({
@@ -5687,7 +5813,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Sharena": new Unit({
@@ -5708,7 +5834,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Sharena": new Unit({
@@ -5729,7 +5855,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Sheena": new Unit({
@@ -5750,7 +5876,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Shigure": new Unit({
@@ -5765,13 +5891,13 @@ const units = {
     "only5Star": false,
     "limited": false,
     "isDancer": false,
-    "link": "Shigure:_Dark_Sky_Singer",
+    "link": "Shigure:_Uplifting_Artist",
     "weapon": 350,
     "assist": 400,
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "PA-Shigure": new Unit({
@@ -5786,13 +5912,13 @@ const units = {
     "only5Star": true,
     "limited": false,
     "isDancer": true,
-    "link": "Shigure:_Uplifting_Artist",
+    "link": "Shigure:_Dark_Sky_Singer",
     "weapon": 350,
     "assist": 400,
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Shiro": new Unit({
@@ -5813,7 +5939,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Siegbert": new Unit({
@@ -5834,7 +5960,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Sigurd": new Unit({
@@ -5855,7 +5981,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Silas": new Unit({
@@ -5876,7 +6002,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Silvia": new Unit({
@@ -5897,7 +6023,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Soleil": new Unit({
@@ -5918,7 +6044,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Sonya": new Unit({
@@ -5939,7 +6065,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Sophia": new Unit({
@@ -5960,7 +6086,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Soren": new Unit({
@@ -5981,7 +6107,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Sothe": new Unit({
@@ -6002,7 +6128,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Stahl": new Unit({
@@ -6023,7 +6149,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Subaki": new Unit({
@@ -6044,7 +6170,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Sully": new Unit({
@@ -6065,7 +6191,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Sumia": new Unit({
@@ -6086,7 +6212,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Surtr": new Unit({
@@ -6128,7 +6254,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Takumi": new Unit({
@@ -6149,7 +6275,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "F-Takumi": new Unit({
@@ -6170,7 +6296,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Takumi": new Unit({
@@ -6191,7 +6317,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Takumi": new Unit({
@@ -6212,7 +6338,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Tana": new Unit({
@@ -6233,7 +6359,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Tana": new Unit({
@@ -6254,7 +6380,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Tharja": new Unit({
@@ -6275,7 +6401,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "B-Tharja": new Unit({
@@ -6296,7 +6422,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "NY-Tharja": new Unit({
@@ -6317,7 +6443,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "A-Tiki": new Unit({
@@ -6338,7 +6464,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Y-Tiki": new Unit({
@@ -6359,7 +6485,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "LY-Tiki": new Unit({
@@ -6401,7 +6527,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "SY-Tiki": new Unit({
@@ -6422,7 +6548,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Titania": new Unit({
@@ -6443,7 +6569,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Tobin": new Unit({
@@ -6464,7 +6590,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ursula": new Unit({
@@ -6485,7 +6611,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Valter": new Unit({
@@ -6506,7 +6632,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "BH-Veronica": new Unit({
@@ -6527,7 +6653,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Virion": new Unit({
@@ -6548,7 +6674,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Walhart": new Unit({
@@ -6569,7 +6695,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Wrys": new Unit({
@@ -6590,7 +6716,7 @@ const units = {
     "special": 300,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Xander": new Unit({
@@ -6611,7 +6737,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "PA-Xander": new Unit({
@@ -6632,7 +6758,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "S-Xander": new Unit({
@@ -6653,7 +6779,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "SS-Xander": new Unit({
@@ -6674,7 +6800,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Ylgr": new Unit({
@@ -6695,7 +6821,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Zelgius": new Unit({
@@ -6716,7 +6842,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 300,
-    "c": 240,
+    "c": 300,
     "seal": 240
   }),
   "Zephiel": new Unit({
@@ -6737,7 +6863,7 @@ const units = {
     "special": 500,
     "a": 300,
     "b": 240,
-    "c": 240,
+    "c": 300,
     "seal": 240
   })
 }
