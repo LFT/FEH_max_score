@@ -28,7 +28,7 @@
   width: 28px;
   height: 28px;
 }
-.icon-greenTome {
+.icon-greenBreath {
   background-position: -0px -140px;
   width: 40px;
   height: 40px;
@@ -48,22 +48,22 @@
   width: 40px;
   height: 40px;
 }
-.icon-dagger {
+.icon-colorlessBeast {
   background-position: -0px -300px;
   width: 40px;
   height: 40px;
 }
-.icon-staff {
+.icon-dagger {
   background-position: -0px -340px;
   width: 40px;
   height: 40px;
 }
-.icon-redTome {
+.icon-staff {
   background-position: -0px -380px;
   width: 40px;
   height: 40px;
 }
-.icon-greenBreath {
+.icon-redTome {
   background-position: -0px -420px;
   width: 40px;
   height: 40px;
@@ -73,38 +73,43 @@
   width: 40px;
   height: 40px;
 }
-.icon-axe {
+.icon-greenTome {
   background-position: -0px -500px;
   width: 40px;
   height: 40px;
 }
-.icon-lance {
+.icon-redBreath {
   background-position: -0px -540px;
   width: 40px;
   height: 40px;
 }
-.icon-redBreath {
+.icon-lance {
   background-position: -0px -580px;
   width: 40px;
-  height: 40px;
-}
-.icon-sword {
-  background-position: -0px -620px;
-  width: 40px;
-  height: 40px;
+  height: 72px;
 }
 .icon-redBow {
-  background-position: -0px -660px;
+  background-position: -0px -652px;
+  width: 40px;
+  height: 72px;
+}
+.icon-axe {
+  background-position: -0px -724px;
   width: 40px;
   height: 72px;
 }
 .icon-greenBow {
-  background-position: -0px -732px;
+  background-position: -0px -796px;
   width: 40px;
   height: 72px;
 }
 .icon-blueBow {
-  background-position: -0px -804px;
+  background-position: -0px -868px;
+  width: 40px;
+  height: 72px;
+}
+.icon-sword {
+  background-position: -0px -940px;
   width: 40px;
   height: 72px;
 }

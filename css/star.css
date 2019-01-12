@@ -3,7 +3,7 @@
   background-image: url('../images/star-sprite.png');
 }
 
-.icon-Kliff {
+.icon-Laevatein {
   background-position: -0px -0px;
   width: 83px;
   height: 83px;
@@ -228,7 +228,7 @@
   width: 83px;
   height: 83px;
 }
-.icon-AF-Corrin {
+.icon-Kliff {
   background-position: -0px -3735px;
   width: 83px;
   height: 83px;
@@ -238,218 +238,238 @@
   width: 83px;
   height: 83px;
 }
-.icon-Laevatein {
+.icon-AF-Corrin {
   background-position: -0px -3901px;
   width: 83px;
   height: 83px;
 }
-.icon-Leif {
+.icon-Leanne {
   background-position: -0px -3984px;
   width: 83px;
   height: 83px;
 }
-.icon-Lene {
+.icon-Leif {
   background-position: -0px -4067px;
   width: 83px;
   height: 83px;
 }
-.icon-Leo {
+.icon-Lene {
   background-position: -0px -4150px;
   width: 83px;
   height: 83px;
 }
-.icon-Lewyn {
+.icon-Leo {
   background-position: -0px -4233px;
   width: 83px;
   height: 83px;
 }
-.icon-Linde {
+.icon-Lewyn {
   background-position: -0px -4316px;
   width: 83px;
   height: 83px;
 }
-.icon-Loki {
+.icon-Linde {
   background-position: -0px -4399px;
   width: 83px;
   height: 83px;
 }
-.icon-Lucina {
+.icon-Loki {
   background-position: -0px -4482px;
   width: 83px;
   height: 83px;
 }
-.icon-Luke {
+.icon-Lucina {
   background-position: -0px -4565px;
   width: 83px;
   height: 83px;
 }
-.icon-Lute {
+.icon-Luke {
   background-position: -0px -4648px;
   width: 83px;
   height: 83px;
 }
-.icon-Lyn {
+.icon-Lute {
   background-position: -0px -4731px;
   width: 83px;
   height: 83px;
 }
-.icon-Maribelle {
+.icon-Lyn {
   background-position: -0px -4814px;
   width: 83px;
   height: 83px;
 }
-.icon-M-Grima {
+.icon-Maribelle {
   background-position: -0px -4897px;
   width: 83px;
   height: 83px;
 }
-.icon-Mia {
+.icon-M-Grima {
   background-position: -0px -4980px;
   width: 83px;
   height: 83px;
 }
-.icon-Micaiah {
+.icon-Mia {
   background-position: -0px -5063px;
   width: 83px;
   height: 83px;
 }
-.icon-Minerva {
+.icon-Micaiah {
   background-position: -0px -5146px;
   width: 83px;
   height: 83px;
 }
-.icon-Mist {
+.icon-Minerva {
   background-position: -0px -5229px;
   width: 83px;
   height: 83px;
 }
-.icon-Myrrh {
+.icon-Mist {
   background-position: -0px -5312px;
   width: 83px;
   height: 83px;
 }
-.icon-Nephenee {
+.icon-Myrrh {
   background-position: -0px -5395px;
   width: 83px;
   height: 83px;
 }
-.icon-Nina {
+.icon-Nailah {
   background-position: -0px -5478px;
   width: 83px;
   height: 83px;
 }
-.icon-Ninian {
+.icon-Nephenee {
   background-position: -0px -5561px;
   width: 83px;
   height: 83px;
 }
-.icon-Olwen {
+.icon-Nina {
   background-position: -0px -5644px;
   width: 83px;
   height: 83px;
 }
-.icon-Ophelia {
+.icon-Ninian {
   background-position: -0px -5727px;
   width: 83px;
   height: 83px;
 }
-.icon-Owain {
+.icon-Olwen {
   background-position: -0px -5810px;
   width: 83px;
   height: 83px;
 }
-.icon-P-Nino {
+.icon-Ophelia {
   background-position: -0px -5893px;
   width: 83px;
   height: 83px;
 }
-.icon-Quan {
+.icon-Owain {
   background-position: -0px -5976px;
   width: 83px;
   height: 83px;
 }
-.icon-Rhajat {
+.icon-P-Nino {
   background-position: -0px -6059px;
   width: 83px;
   height: 83px;
 }
-.icon-R-Olwen {
+.icon-Quan {
   background-position: -0px -6142px;
   width: 83px;
   height: 83px;
 }
-.icon-Ryoma {
+.icon-Reyson {
   background-position: -0px -6225px;
   width: 83px;
   height: 83px;
 }
-.icon-Saber {
+.icon-Rhajat {
   background-position: -0px -6308px;
   width: 83px;
   height: 83px;
 }
-.icon-Sanaki {
+.icon-R-Olwen {
   background-position: -0px -6391px;
   width: 83px;
   height: 83px;
 }
-.icon-Shiro {
+.icon-Ryoma {
   background-position: -0px -6474px;
   width: 83px;
   height: 83px;
 }
-.icon-Siegbert {
+.icon-Saber {
   background-position: -0px -6557px;
   width: 83px;
   height: 83px;
 }
-.icon-Sigurd {
+.icon-Sanaki {
   background-position: -0px -6640px;
   width: 83px;
   height: 83px;
 }
-.icon-Sonya {
+.icon-Shiro {
   background-position: -0px -6723px;
   width: 83px;
   height: 83px;
 }
-.icon-S-Reinhardt {
+.icon-Siegbert {
   background-position: -0px -6806px;
   width: 83px;
   height: 83px;
 }
-.icon-Sumia {
+.icon-Sigurd {
   background-position: -0px -6889px;
   width: 83px;
   height: 83px;
 }
-.icon-Surtr {
+.icon-Sonya {
   background-position: -0px -6972px;
   width: 83px;
   height: 83px;
 }
-.icon-Takumi {
+.icon-S-Reinhardt {
   background-position: -0px -7055px;
   width: 83px;
   height: 83px;
 }
-.icon-Tana {
+.icon-Sumia {
   background-position: -0px -7138px;
   width: 83px;
   height: 83px;
 }
-.icon-Ylgr {
+.icon-Surtr {
   background-position: -0px -7221px;
   width: 83px;
   height: 83px;
 }
-.icon-Y-Tiki {
+.icon-Takumi {
   background-position: -0px -7304px;
   width: 83px;
   height: 83px;
 }
-.icon-Zelgius {
+.icon-Tana {
   background-position: -0px -7387px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Tibarn {
+  background-position: -0px -7470px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Ylgr {
+  background-position: -0px -7553px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Y-Tiki {
+  background-position: -0px -7636px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Zelgius {
+  background-position: -0px -7719px;
   width: 83px;
   height: 83px;
 }

@@ -10,14 +10,14 @@ const scores = {
     "limited" : true,
     "legendary" : true,
     "bonus" : false,
-    "bonusUnits" : ["Hrid", "Surtr", "Laegjarn", "Laevatein", "Helbindi", "Ylgr", "Gharnef", "Xander", "Mist", "Fjorm"],
+    "bonusUnits" : ["L-Azura", "NY-Fjorm", "NY-Laegjarn", "NY-Laevatein", "NY-Hrid", "NY-Gunnthra", "Linus", "Berkut", "Raigh", "Sharena"],
     "includedMoveTypes" : ["infantry", "flier", "cavalry", "armor"],
-    "columnList" : ["sword", "redBreath", "redBow", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"],
+    "columnList" : ["sword", "redBreath", "redBow", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "colorlessBeast", "breath", "bow", "dagger", "staff", ],
     "scoreList" : [],
     "unitScoreList" : {}
 };
 const weaponGroups = ["Clear all", "All", "Melee", "Ranged", "Physical", "Magical", "Red", "Blue", "Green", "Colorless"];
-const columnList = ["sword", "redBreath", "redBow", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "breath", "bow", "dagger", "staff"];
+const columnList = ["sword", "redBreath", "redBow", "redTome", "lance", "blueBreath", "blueBow", "blueTome", "axe", "greenBreath", "greenBow", "greenTome", "colorlessBeast", "breath", "bow", "dagger", "staff"];
 const moveTypes = ["infantry", "flier", "cavalry", "armor"];
 
 function generateScoreList() {

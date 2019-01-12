@@ -74,7 +74,8 @@
 .checkbox-row input {
     vertical-align: middle;
 }
-.checkbox-row .icon-blueBow, .checkbox-row .icon-greenBow, .checkbox-row .icon-redBow {
+.checkbox-row .icon-blueBow, .checkbox-row .icon-greenBow, .checkbox-row .icon-redBow,
+.checkbox-row .icon-axe, .checkbox-row .icon-sword, .checkbox-row .icon-lance {
     margin-bottom : -15px;
     margin-top: -15px;
 }
