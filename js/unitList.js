@@ -6887,8 +6887,8 @@ const units = {
     "c": 300,
     "seal": 240
   }),
-  "LA-Titatnia": new Unit({
-    "name": "LA-Titatnia",
+  "LA-Titania": new Unit({
+    "name": "LA-Titania",
     "moveType": "cavalry",
     "weaponType": "redTome",
     "bst": 145,

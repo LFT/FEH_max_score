@@ -8,6 +8,7 @@ const scores = {
     "season" : true,
     "star5" : true,
     "limited" : true,
+    "common" : true,
     "legendary" : true,
     "bonus" : false,
     "bonusUnits" : ["L-Azura", "NY-Fjorm", "NY-Laegjarn", "NY-Laevatein", "NY-Hrid", "NY-Gunnthra", "Linus", "Berkut", "Raigh", "Sharena"],
@@ -24,7 +25,8 @@ function generateScoreList() {
     scores.scoreList = [];
     for (let unit in units) {
         let realUnit = units[unit];
-        if ((scores.star5 || !realUnit.only5Star) &&
+        if ((scores.star5 || !realUnit.isClassic5()) &&
+            (scores.common || !realUnit.isClassicCommon()) &&
             (scores.season || !realUnit.seasonnal) &&
             (scores.limited || !realUnit.limited) &&
             (scores.legendary || !realUnit.isLegendary) &&
@@ -165,6 +167,7 @@ function handleGroup(evt) {
 function handleUnits(evt) {
     switch (evt.target.name) {
         case "star5":
+        case "common":
         case "season" :
         case "boon" :
         case "duel" :

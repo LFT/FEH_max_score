@@ -96,6 +96,14 @@ class Unit {
         }
         return cssClass + "hero-icon";
     }
+
+    isClassic5 () {
+        return this.only5Star && !this.seasonnal && !this.isLegendary;
+    }
+
+    isClassicCommon () {
+        return !(this.only5Star || this.isLegendary || this.seasonnal || this.limited);
+    }
 }
 
 
