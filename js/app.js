@@ -190,7 +190,7 @@ function handleUnits(evt) {
 }
 
 function init() {
-    generateScoreList(0);
+    generateScoreList();
     drawMatrix();
     let template = document.getElementById("checkbox-template");
     let groups = document.getElementById("column-groups");

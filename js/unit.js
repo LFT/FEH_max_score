@@ -27,6 +27,9 @@ class Unit {
         // adding bst
         let a = this.a;
         let bst = this.bst;
+        if (withMerge) {
+            bst += 3;
+        }
         if (withDuel && bst < 170 &&
             (this.moveType === "infantry" &&
                 (this.getColor() === "green" || this.getColor() === "grey") ||
