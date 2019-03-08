@@ -2732,7 +2732,7 @@ const units = {
   "Idunn": new Unit({
     "name": "Idunn",
     "moveType": "armor",
-    "weaponType": "breath",
+    "weaponType": "redBreath",
     "bst": 179,
     "hasSuperBoon": true,
     "maxMerge": 10,
