@@ -3,7 +3,7 @@
   background-image: url('../images/limited-sprite.png');
 }
 
-.icon-LA-Eliwood {
+.icon-LA-Titania {
   background-position: -0px -0px;
   width: 83px;
   height: 83px;
@@ -128,12 +128,12 @@
   width: 83px;
   height: 83px;
 }
-.icon-Alfonse {
+.icon-LA-Eliwood {
   background-position: -0px -2075px;
   width: 83px;
   height: 83px;
 }
-.icon-LA-Titania {
+.icon-Alfonse {
   background-position: -0px -2158px;
   width: 83px;
   height: 83px;
@@ -213,43 +213,53 @@
   width: 83px;
   height: 83px;
 }
-.icon-Saias {
+.icon-Panne {
   background-position: -0px -3486px;
   width: 83px;
   height: 83px;
 }
-.icon-Sharena {
+.icon-Rutger {
   background-position: -0px -3569px;
   width: 83px;
   height: 83px;
 }
-.icon-Tobin {
+.icon-Saias {
   background-position: -0px -3652px;
   width: 83px;
   height: 83px;
 }
-.icon-Ursula {
+.icon-Sharena {
   background-position: -0px -3735px;
   width: 83px;
   height: 83px;
 }
-.icon-Valter {
+.icon-Tobin {
   background-position: -0px -3818px;
   width: 83px;
   height: 83px;
 }
-.icon-Walhart {
+.icon-Ursula {
   background-position: -0px -3901px;
   width: 83px;
   height: 83px;
 }
-.icon-Xander {
+.icon-Valter {
   background-position: -0px -3984px;
   width: 83px;
   height: 83px;
 }
-.icon-Zephiel {
+.icon-Walhart {
   background-position: -0px -4067px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Xander {
+  background-position: -0px -4150px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Zephiel {
+  background-position: -0px -4233px;
   width: 83px;
   height: 83px;
 }
