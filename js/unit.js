@@ -30,11 +30,7 @@ class Unit {
         if (withMerge && this.maxMerge) {
             bst += 3;
         }
-        if (withDuel && bst < 170 &&
-            (this.moveType === "infantry" &&
-                (this.getColor() === "green" || this.getColor() === "grey") ||
-            this.moveType === "flier" &&
-                (this.getColor() === "red" || this.getColor() === "blue"))) {
+        if (withDuel && bst < 170 && this.hasDuel()) {
             bst = 170;
             a = 300;
         }
@@ -80,6 +76,7 @@ class Unit {
             case "bow":
             case "dagger":
             case "staff":
+            case "colorlessBeast":
                 return "grey";
         }
     }
@@ -106,6 +103,11 @@ class Unit {
 
     isClassicCommon () {
         return !(this.only5Star || this.isLegendary || this.seasonnal || this.limited);
+    }
+
+    hasDuel () {
+        return this.moveType === "infantry" && (this.getColor() !== "red" && this.getColor() !== "blue") ||
+            this.moveType === "flier" && this.getColor() !== "grey";
     }
 }
 
