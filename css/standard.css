@@ -3,7 +3,7 @@
   background-image: url('../images/standard-sprite.png');
 }
 
-.icon-Lon-qu {
+.icon-Lucius {
   background-position: -0px -0px;
   width: 83px;
   height: 83px;
@@ -273,12 +273,12 @@
   width: 83px;
   height: 83px;
 }
-.icon-Ares {
+.icon-Lon-qu {
   background-position: -0px -4482px;
   width: 83px;
   height: 83px;
 }
-.icon-Lucius {
+.icon-Ares {
   background-position: -0px -4565px;
   width: 83px;
   height: 83px;
@@ -533,18 +533,23 @@
   width: 83px;
   height: 83px;
 }
-.icon-Titania {
+.icon-Thea {
   background-position: -0px -8798px;
   width: 83px;
   height: 83px;
 }
-.icon-Virion {
+.icon-Titania {
   background-position: -0px -8881px;
   width: 83px;
   height: 83px;
 }
-.icon-Wrys {
+.icon-Virion {
   background-position: -0px -8964px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Wrys {
+  background-position: -0px -9047px;
   width: 83px;
   height: 83px;
 }

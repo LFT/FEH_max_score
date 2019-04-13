@@ -3,7 +3,7 @@
   background-image: url('../images/legendary-sprite.png');
 }
 
-.icon-L-Ephraim {
+.icon-L-Hector {
   background-position: -0px -0px;
   width: 83px;
   height: 83px;
@@ -43,12 +43,12 @@
   width: 83px;
   height: 83px;
 }
-.icon-Eir {
+.icon-L-Ephraim {
   background-position: -0px -664px;
   width: 83px;
   height: 83px;
 }
-.icon-L-Hector {
+.icon-Eir {
   background-position: -0px -747px;
   width: 83px;
   height: 83px;
@@ -85,6 +85,11 @@
 }
 .icon-LY-Tiki {
   background-position: -0px -1328px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Yune {
+  background-position: -0px -1411px;
   width: 83px;
   height: 83px;
 }
