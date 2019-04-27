@@ -29,7 +29,7 @@ function generateScoreList() {
             (scores.common || !realUnit.isClassicCommon()) &&
             (scores.season || !realUnit.seasonnal) &&
             (scores.limited || !realUnit.limited) &&
-            (scores.legendary || !realUnit.isLegendary) &&
+            (scores.legendary || !realUnit.legendaryStatus) &&
             scores.includedMoveTypes.indexOf(realUnit.moveType) > -1 &&
             (!scores.bonus || scores.bonusUnits.indexOf(unit) > -1)) {
             let score = realUnit.calculateScore(scores.numberOfBlessing, scores.merge, scores.boon, scores.duel, scores.dance);

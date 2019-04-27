@@ -3,7 +3,7 @@
   background-image: url('../images/legendary-sprite.png');
 }
 
-.icon-L-Hector {
+.icon-L-Ephraim {
   background-position: -0px -0px;
   width: 83px;
   height: 83px;
@@ -33,17 +33,17 @@
   width: 83px;
   height: 83px;
 }
-.icon-L-Azura {
+.icon-L-Alm {
   background-position: -0px -498px;
   width: 83px;
   height: 83px;
 }
-.icon-L-Eirika {
+.icon-L-Azura {
   background-position: -0px -581px;
   width: 83px;
   height: 83px;
 }
-.icon-L-Ephraim {
+.icon-L-Eirika {
   background-position: -0px -664px;
   width: 83px;
   height: 83px;
@@ -53,43 +53,48 @@
   width: 83px;
   height: 83px;
 }
-.icon-LH-Roy {
+.icon-L-Hector {
   background-position: -0px -830px;
   width: 83px;
   height: 83px;
 }
-.icon-L-Ike {
+.icon-LH-Roy {
   background-position: -0px -913px;
   width: 83px;
   height: 83px;
 }
-.icon-L-Lucina {
+.icon-L-Ike {
   background-position: -0px -996px;
   width: 83px;
   height: 83px;
 }
-.icon-L-Lyn {
+.icon-L-Lucina {
   background-position: -0px -1079px;
   width: 83px;
   height: 83px;
 }
-.icon-L-Marth {
+.icon-L-Lyn {
   background-position: -0px -1162px;
   width: 83px;
   height: 83px;
 }
-.icon-L-Ryoma {
+.icon-L-Marth {
   background-position: -0px -1245px;
   width: 83px;
   height: 83px;
 }
-.icon-LY-Tiki {
+.icon-L-Ryoma {
   background-position: -0px -1328px;
   width: 83px;
   height: 83px;
 }
-.icon-Yune {
+.icon-LY-Tiki {
   background-position: -0px -1411px;
+  width: 83px;
+  height: 83px;
+}
+.icon-Yune {
+  background-position: -0px -1494px;
   width: 83px;
   height: 83px;
 }

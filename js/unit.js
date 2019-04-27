@@ -6,7 +6,11 @@ class Unit {
         this.bst = jsonData.bst;
         this.hasSuperBoon = jsonData.hasSuperBoon;
         this.maxMerge = jsonData.maxMerge;
-        this.isLegendary = jsonData.isLegendary;
+        // legendary status is
+        // 0 : not legendary
+        // 1 : legendary/mythical
+        // 2 : legendary with the pair up/stat boost
+        this.legendaryStatus = jsonData.legendaryStatus;
         this.seasonnal = jsonData.seasonnal;
         this.only5Star = jsonData.only5Star;
         this.isDancer = jsonData.isDancer
@@ -30,9 +34,14 @@ class Unit {
         if (withMerge && this.maxMerge) {
             bst += 3;
         }
-        if (withDuel && bst < 170 && this.hasDuel()) {
-            bst = 170;
-            a = 300;
+        if (withDuel) {
+            if (bst < 170 && this.hasDuel()) {
+                bst = 170;
+                a = 300;
+            }
+            if (bst < 175 && this.legendaryStatus === 2) {
+                bst = 175;
+            }
         }
         let assist = this.assist;
         if (withDance && this.isDancer) {
@@ -47,7 +56,7 @@ class Unit {
             score += 2 * this.maxMerge;
         }
         // adding blessings
-        if (!this.isLegendary) {
+        if (!this.legendaryStatus) {
             score += numberOfBlessing * 4;
         }
         // Using a bonus unit.
@@ -85,7 +94,7 @@ class Unit {
         let cssClass;
         if (this.seasonnal) {
             cssClass = "seasonal-";
-        } else if (this.isLegendary) {
+        } else if (this.legendaryStatus) {
             cssClass = "legendary-";
         } else if (this.limited) {
             cssClass = "limited-";
@@ -98,11 +107,11 @@ class Unit {
     }
 
     isClassic5 () {
-        return this.only5Star && !this.seasonnal && !this.isLegendary;
+        return this.only5Star && !this.seasonnal && !this.legendaryStatus;
     }
 
     isClassicCommon () {
-        return !(this.only5Star || this.isLegendary || this.seasonnal || this.limited);
+        return !(this.only5Star || this.legendaryStatus || this.seasonnal || this.limited);
     }
 
     hasDuel () {
