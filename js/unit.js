@@ -6,15 +6,17 @@ class Unit {
         this.bst = jsonData.bst;
         this.hasSuperBoon = jsonData.hasSuperBoon;
         this.maxMerge = jsonData.maxMerge;
-        // legendary status is
-        // 0 : not legendary
-        // 1 : legendary/mythical
-        // 2 : legendary with the pair up/stat boost
-        this.legendaryStatus = jsonData.legendaryStatus;
-        this.seasonnal = jsonData.seasonnal;
-        this.only5Star = jsonData.only5Star;
+        // summoning status is
+        // -1 : limited unit
+        // 0 : 3 or 4 star
+        // 1 : 5 star in the summoning pool
+        // 2 : 5 star and seasonnal unit
+        // 3 : legendary hero
+        // 4 : legendary hero with the pair up/stat boost
+        // 5 : mythical hero
+        // 6 : mythical hero with the pair up/stat boost
+        this.summoningStatus = jsonData.summoningStatus;
         this.isDancer = jsonData.isDancer
-        this.limited = jsonData.limited;
         this.wikiLink = jsonData.link;
         this.weapon = jsonData.weapon;
         this.assist = jsonData.assist;
@@ -39,7 +41,7 @@ class Unit {
                 bst = 170;
                 a = 300;
             }
-            if (bst < 175 && this.legendaryStatus === 2) {
+            if (bst < 175 && (this.summoningStatus === 4 || this.summoningStatus === 6)) {
                 bst = 175;
             }
         }
@@ -56,7 +58,7 @@ class Unit {
             score += 2 * this.maxMerge;
         }
         // adding blessings
-        if (!this.legendaryStatus) {
+        if (!this.isLegendaryOrMythical()) {
             score += numberOfBlessing * 4;
         }
         // Using a bonus unit.
@@ -92,13 +94,13 @@ class Unit {
 
     getCssClass () {
         let cssClass;
-        if (this.seasonnal) {
+        if (this.isSeasonnal()) {
             cssClass = "seasonal-";
-        } else if (this.legendaryStatus) {
+        } else if (this.isLegendaryOrMythical()) {
             cssClass = "legendary-";
-        } else if (this.limited) {
+        } else if (this.isLimited()) {
             cssClass = "limited-";
-        } else if (this.only5Star) {
+        } else if (this.isClassic5()) {
             cssClass = "star-";
         } else {
             cssClass = "";
@@ -107,11 +109,23 @@ class Unit {
     }
 
     isClassic5 () {
-        return this.only5Star && !this.seasonnal && !this.legendaryStatus;
+        return this.summoningStatus === 1;
     }
 
     isClassicCommon () {
-        return !(this.only5Star || this.legendaryStatus || this.seasonnal || this.limited);
+        return this.summoningStatus === 0;
+    }
+
+    isLegendaryOrMythical() {
+        return this.summoningStatus > 2;
+    }
+
+    isSeasonnal() {
+        return this.summoningStatus === 2;
+    }
+
+    isLimited() {
+        return this.summoningStatus === -1;
     }
 
     hasDuel () {
